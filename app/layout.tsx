@@ -8,7 +8,7 @@ import './globals.css';
 export const metadata: Metadata = {
   metadataBase: new URL('https://kincharge.com'),
   title: 'Your Open Source AI Assistant',
-  description: 'Suparchage your efficiency and satisfaction with KinCharge an Open Source AI Assistant'
+  description: 'Superchage your efficiency and satisfaction with KinCharge an Open Source AI Assistant'
 };
 
 export const viewport = {
