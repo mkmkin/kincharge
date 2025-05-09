@@ -1,5 +1,4 @@
-<a href="https://chat.vercel.ai/">
-  <img alt="Next.js 14 and App Router-ready AI chatbot." src="app/(chat)/opengraph-image-kincharge.png">
+<a href="https://kincharge.com/">
   <h1 align="center">AI Assistant</h1>
 </a>
 
