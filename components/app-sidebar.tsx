@@ -34,6 +34,13 @@ export function AppSidebar({ user }: { user: User | undefined }) {
               }}
               className="flex flex-row gap-3 items-center"
             >
+              <Image
+                  src={`https://upload.wikimedia.org/wikipedia/commons/f/f3/Artificial_Intelligence_%26_AI_%26_Machine_Learning.jpg`}
+                  alt={'KinCharge Logo Icon'}
+                  width={24}
+                  height={24}
+                  className="rounded"
+                />
               <span className="text-lg font-semibold px-2 hover:bg-muted rounded-md cursor-pointer">
                 KinCharge
               </span>
