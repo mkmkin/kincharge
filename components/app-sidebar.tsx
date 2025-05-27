@@ -36,13 +36,13 @@ export function AppSidebar({ user }: { user: User | undefined }) {
               className="flex flex-row gap-3 items-center"
             >
               <Image
-                  src={`/images/IMG_6379.png`}
+                  src={`/images/IMG_6356.png`}
                   alt={'KinCharge Logo Icon'}
-                  width={34}
-                  height={34}
+                  width={40}
+                  height={35}
                   className="rounded pr-0 mr-0"
                 />
-              <span className="text-lg font-semibold ml-1 pl-0 pr-2 hover:bg-muted rounded-md cursor-pointer">
+              <span className="text-lg font-semibold ml-0 pl-0 pr-2 hover:bg-muted rounded-md cursor-pointer">
                 KinCharge
               </span>
             </Link>
