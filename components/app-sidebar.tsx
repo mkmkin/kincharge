@@ -40,9 +40,9 @@ export function AppSidebar({ user }: { user: User | undefined }) {
                   alt={'KinCharge Logo Icon'}
                   width={34}
                   height={34}
-                  className="rounded"
+                  className="rounded pr-0 mr-0"
                 />
-              <span className="text-lg font-semibold pl-1 pr-2 hover:bg-muted rounded-md cursor-pointer">
+              <span className="text-lg font-semibold ml-1 pl-0 pr-2 hover:bg-muted rounded-md cursor-pointer">
                 KinCharge
               </span>
             </Link>
