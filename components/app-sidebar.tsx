@@ -40,7 +40,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
                   alt={'KinCharge Logo Icon'}
                   width={40}
                   height={35}
-                  className="rounded pr-0 mr-0"
+                  className="rounded mx-0 px-0"
                 />
               <span className="text-lg font-semibold ml-0 pl-0 pr-2 hover:bg-muted rounded-md cursor-pointer">
                 KinCharge
@@ -61,7 +61,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
                   <PlusIcon />
                 </Button>
               </TooltipTrigger>
-              <TooltipContent align="end">New Chat</TooltipContent>
+              <TooltipContent align="end">New Assist</TooltipContent>
             </Tooltip>
           </div>
         </SidebarMenu>
