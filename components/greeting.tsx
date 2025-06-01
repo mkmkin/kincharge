@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export const Greeting = () => {
   return (
@@ -13,6 +14,13 @@ export const Greeting = () => {
         transition={{ delay: 0.5 }}
         className="text-2xl font-semibold"
       >
+        <Image
+                  src={`/images/IMG_6432.png`}
+                  alt={'KinCharge Logo Icon'}
+                  width={40}
+                  height={35}
+                  className="rounded mx-0 px-0"
+                />
         Hi, this is KinCharge, your AI Assistant!
       </motion.div>
       <motion.div
