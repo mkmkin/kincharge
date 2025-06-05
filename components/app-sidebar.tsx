@@ -36,7 +36,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
               className="flex flex-row gap-3 items-center"
             >
               <Image
-                  src={`/images/IMG_6432.png`}
+                  src={`/images/MKM.png`}
                   alt={'KinCharge Logo Icon'}
                   width={40}
                   height={35}
