@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export const Greeting = () => {
   return (
@@ -39,7 +40,10 @@ export const Greeting = () => {
         transition={{ delay: 0.6 }}
         className="text-2xl text-zinc-500 mx-auto justify-center content-center text-center"
       >
-        I help you maximize and supercharge your efficiency and satisfaction,
+        I help you maximize and supercharge your efficiency and satisfaction along with 
+        <Link href="https://agency.kincharge.com">our agency</Link>
+        and 
+        <Link href="https://agency.kincharge.com">our other offerings</Link>. 
         What can I assist you with today?
       </motion.div>
     </div>
