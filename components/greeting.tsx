@@ -20,7 +20,7 @@ export const Greeting = () => {
                   alt={'KinCharge Logo Icon'}
                   width={70}
                   height={70}
-                  className="rounded mx-0 px-0"
+                  className="rounded mx-0 px-0 object-center"
                 />
       </motion.div>
       <motion.div
