@@ -42,10 +42,10 @@ export const Greeting = () => {
       >
         I help you maximize and supercharge your efficiency and satisfaction.{ " " }
         What can I assist you with today?{ " " }  
-        (You can also get assisted by{ " " }
+        (You can also get helped by{ " " }
         <Link href="https://agency.kincharge.com" target="_blank" className="underline">our agency</Link>{ " " } 
-        and{ " " }
-        <Link href="https://agency.kincharge.com" target="_blank" className="underline">our other offerings</Link>)
+        and by{ " " }
+        <Link href="https://offerings.kincharge.com" target="_blank" className="underline">our other offerings</Link>)
       </motion.div>
     </div>
   );
