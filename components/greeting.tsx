@@ -41,13 +41,9 @@ export const Greeting = () => {
         className="text-2xl text-zinc-500 mx-auto justify-center content-center text-center"
       >
         I help you maximize and supercharge your efficiency and satisfaction along with 
-        
-        <Link href="https://agency.kincharge.com" target="_blank">our agency</Link>
-        
-        and 
-        
-        <Link href="https://agency.kincharge.com" target="_blank">our other offerings</Link>. 
-        
+        <Link href="https://agency.kincharge.com" target="_blank" className="font-bold underline"> our agency </Link>  
+        and   
+        <Link href="https://agency.kincharge.com" target="_blank" className="font-bold underline"> our other offerings </Link>.  
         What can I assist you with today?
       </motion.div>
     </div>
