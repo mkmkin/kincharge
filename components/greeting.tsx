@@ -28,7 +28,7 @@ export const Greeting = () => {
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: 10 }}
         transition={{ delay: 0.5 }}
-        className="text-2xl font-semibold mx-auto justify-center content-center text-justify"
+        className="text-2xl font-semibold mx-auto justify-center content-center text-center"
       >
         Hi, this is KinCharge, your AI Assistant!
       </motion.div>
@@ -37,7 +37,7 @@ export const Greeting = () => {
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: 10 }}
         transition={{ delay: 0.6 }}
-        className="text-2xl text-zinc-500 mx-auto justify-center content-center text-justify"
+        className="text-2xl text-zinc-500 mx-auto justify-center content-center text-center"
       >
         I help you maximize and supercharge your efficiency and satisfaction,
         What can I assist you with today?
