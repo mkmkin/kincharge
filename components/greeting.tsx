@@ -16,7 +16,7 @@ export const Greeting = () => {
         className="text-2xl font-semibold"
       >
         <Image
-                  src={`/images/IMG_6432.png`}
+                  src={`/images/MKM.png`}
                   alt={'KinCharge Logo Icon'}
                   width={40}
                   height={35}
