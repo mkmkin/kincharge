@@ -18,8 +18,8 @@ export const Greeting = () => {
         <Image
                   src={`/images/MKM.png`}
                   alt={'KinCharge Logo Icon'}
-                  width={40}
-                  height={35}
+                  width={70}
+                  height={70}
                   className="rounded mx-0 px-0"
                 />
       </motion.div>
