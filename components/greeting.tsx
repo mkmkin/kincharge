@@ -40,11 +40,12 @@ export const Greeting = () => {
         transition={{ delay: 0.6 }}
         className="text-2xl text-zinc-500 mx-auto justify-center content-center text-center"
       >
-        I help you maximize and supercharge your efficiency and satisfaction along with 
-        <Link href="https://agency.kincharge.com" target="_blank" className="font-semibold"> our agency </Link>  
-        and   
-        <Link href="https://agency.kincharge.com" target="_blank" className="font-semibold"> our other offerings</Link>.   
-        What can I assist you with today?
+        I help you maximize and supercharge your efficiency and satisfaction. 
+        What can I assist you with today?   
+        (You can also get assisted by 
+        <Link href="https://agency.kincharge.com" target="_blank" className="font-semibold underline">our agency</Link>   
+        and 
+        <Link href="https://agency.kincharge.com" target="_blank" className="font-semibold underline">our other offerings</Link>)
       </motion.div>
     </div>
   );
