@@ -43,9 +43,9 @@ export const Greeting = () => {
         I help you maximize and supercharge your efficiency and satisfaction.{ " " }
         What can I assist you with today?{ " " }  
         (You can also get assisted by{ " " }
-        <Link href="https://agency.kincharge.com" target="_blank" className="font-semibold underline">our agency</Link>{ " " } 
+        <Link href="https://agency.kincharge.com" target="_blank" className="underline">our agency</Link>{ " " } 
         and{ " " }
-        <Link href="https://agency.kincharge.com" target="_blank" className="font-semibold underline">our other offerings</Link>)
+        <Link href="https://agency.kincharge.com" target="_blank" className="underline">our other offerings</Link>)
       </motion.div>
     </div>
   );
