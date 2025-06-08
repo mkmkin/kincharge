@@ -25,8 +25,8 @@ function PureSuggestedActions({
     },
     {
       title: 'Help me find',
-      label: `a name for my puppy`,
-      action: `Help me find a name for my puppy`,
+      label: `a name for my company`,
+      action: `Help me find a name for my company`,
     },
     {
       title: 'Teach me how to',
