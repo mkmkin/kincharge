@@ -70,10 +70,10 @@ export function AppSidebar({ user }: { user: User | undefined }) {
         <SidebarHistory user={user} />
       </SidebarContent>
       <SidebarFooter>
-        <div className="text-sm text-zinc-500 mx-auto">
+        <div className="text-sm text-zinc-500 mx-1">
           © 2025 KinCharge. All rights reserved.
         </div>
-        <div className="text-sm text-zinc-500 mx-auto">
+        <div className="text-sm text-zinc-500 mx-1">
           <Link href="https://agency.kincharge.com" target="_blank" className="underline">Our Agency</Link>
             { " | " }
           <Link href="https://offerings.kincharge.com" target="_blank" className="underline">Our Other Offerings</Link>
