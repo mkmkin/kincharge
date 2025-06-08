@@ -70,16 +70,22 @@ export function AppSidebar({ user }: { user: User | undefined }) {
         <SidebarHistory user={user} />
       </SidebarContent>
       <SidebarFooter>
-        <div className="text-sm font-semibold mx-auto justify-center content-center text-center">
-          Hi, this is KinCharge, your AI Assistant!
+        <div className="text-sm text-zinc-500 mx-auto justify-center content-center text-center">
+          © 2025 KinCharge. All rights reserved.
         </div>
         <div className="text-sm text-zinc-500 mx-auto justify-center content-center text-center">
-          I help you maximize and supercharge your efficiency and satisfaction.{ " " }
-          What can I assist you with today?{ " " }  
-          (You can also get helped by{ " " }
-          <Link href="https://agency.kincharge.com" target="_blank" className="underline">our agency</Link>{ " " } 
-            and by{ " " }
-          <Link href="https://offerings.kincharge.com" target="_blank" className="underline">our other offerings</Link>)
+          <Link href="https://agency.kincharge.com" target="_blank" className="underline">Our Agency</Link>
+            { " | " }
+          <Link href="https://offerings.kincharge.com" target="_blank" className="underline">Our Other Offerings</Link>
+            { " | " }
+          <Link href="https://about.kincharge.com" target="_blank" className="underline">About KinCharge</Link>
+            { " | " } 
+          <Link href="https://about.kincharge.com#privacy-policy" target="_blank" className="underline">Privacy Policy</Link>
+            { " | " } 
+          <Link href="https://about.kincharge.com#terms-of-use" target="_blank" className="underline">Terms of Use</Link>
+            { " | " } 
+          <Link href="https://about.kincharge.com#contact" target="_blank" className="underline">Contact</Link>
+            { " | " } 
         </div>
         
         {user && <SidebarUserNav user={user} />}
