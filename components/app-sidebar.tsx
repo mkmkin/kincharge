@@ -70,10 +70,10 @@ export function AppSidebar({ user }: { user: User | undefined }) {
         <SidebarHistory user={user} />
       </SidebarContent>
       <SidebarFooter>
-        <div className="text-sm text-zinc-500 mx-auto justify-center content-center text-center">
+        <div className="text-sm text-zinc-500 mx-auto">
           © 2025 KinCharge. All rights reserved.
         </div>
-        <div className="text-sm text-zinc-500 mx-auto justify-center content-center text-center">
+        <div className="text-sm text-zinc-500 mx-auto">
           <Link href="https://agency.kincharge.com" target="_blank" className="underline">Our Agency</Link>
             { " | " }
           <Link href="https://offerings.kincharge.com" target="_blank" className="underline">Our Other Offerings</Link>
@@ -85,7 +85,6 @@ export function AppSidebar({ user }: { user: User | undefined }) {
           <Link href="https://about.kincharge.com#terms-of-use" target="_blank" className="underline">Terms of Use</Link>
             { " | " } 
           <Link href="https://about.kincharge.com#contact" target="_blank" className="underline">Contact</Link>
-            { " | " } 
         </div>
         
         {user && <SidebarUserNav user={user} />}
