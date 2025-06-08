@@ -69,7 +69,21 @@ export function AppSidebar({ user }: { user: User | undefined }) {
       <SidebarContent>
         <SidebarHistory user={user} />
       </SidebarContent>
-      <SidebarFooter>{user && <SidebarUserNav user={user} />}</SidebarFooter>
+      <SidebarFooter>
+        <div className="text-sm font-semibold mx-auto justify-center content-center text-center">
+          Hi, this is KinCharge, your AI Assistant!
+        </div>
+        <div className="text-sm text-zinc-500 mx-auto justify-center content-center text-center">
+          I help you maximize and supercharge your efficiency and satisfaction.{ " " }
+          What can I assist you with today?{ " " }  
+          (You can also get helped by{ " " }
+          <Link href="https://agency.kincharge.com" target="_blank" className="underline">our agency</Link>{ " " } 
+            and by{ " " }
+          <Link href="https://offerings.kincharge.com" target="_blank" className="underline">our other offerings</Link>)
+        </div>
+        
+        {user && <SidebarUserNav user={user} />}
+      </SidebarFooter>
     </Sidebar>
   );
 }
