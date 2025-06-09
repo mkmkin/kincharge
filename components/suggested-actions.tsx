@@ -25,8 +25,8 @@ function PureSuggestedActions({
     },
     {
       title: 'How to integrate AI',
-      label: `at work and at home`,
-      action: `How to integrate AI at work and at home`,
+      label: `at work and at home?`,
+      action: `How to integrate AI at work and at home?`,
     },
     {
       title: 'Teach me how to',
