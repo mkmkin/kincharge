@@ -78,15 +78,16 @@ export function AppSidebar({ user }: { user: User | undefined }) {
             { " | " }
           <Link href="https://offerings.kincharge.com" target="_blank" className="underline">Our Other Offerings</Link>
             { " | " }
-          <Link href="https://about.kincharge.com" target="_blank" className="underline">About KinCharge</Link>
+          <Link href="https://about.kincharge.com" target="_blank" className="underline">About Us</Link>
             { " | " } 
           <Link href="https://about.kincharge.com#privacy-policy" target="_blank" className="underline">Privacy Policy</Link>
             { " | " } 
           <Link href="https://about.kincharge.com#terms-of-use" target="_blank" className="underline">Terms of Use</Link>
             { " | " } 
           <Link href="https://about.kincharge.com#contact" target="_blank" className="underline">Contact</Link>
+            { " | " } 
+          <Link href="https://github.com/mkmkin/kincharge/tree/main" target="_blank" className="underline">Source Code</Link>
         </div>
-        
         {user && <SidebarUserNav user={user} />}
       </SidebarFooter>
     </Sidebar>
