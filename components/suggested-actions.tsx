@@ -24,9 +24,9 @@ function PureSuggestedActions({
       action: 'How can AI maximize my efficiency and satisfaction?',
     },
     {
-      title: 'Help me find',
-      label: `a name for my company`,
-      action: `Help me find a name for my company`,
+      title: 'How to integrate AI',
+      label: `at work and at home`,
+      action: `How to integrate AI at work and at home`,
     },
     {
       title: 'Teach me how to',
@@ -35,8 +35,8 @@ function PureSuggestedActions({
     },
     {
       title: 'Help me book a flight',
-      label: 'for Zanzibar',
-      action: 'Help me book a flight for Zanzibar',
+      label: 'from New York to Zanzibar',
+      action: 'Help me book a flight from New York to Zanzibar',
     },
   ];
 
