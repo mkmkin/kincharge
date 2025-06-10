@@ -80,7 +80,7 @@ export const Greeting = () => {
             </AlertDialogHeader>
             <AlertDialogFooter>
               <AlertDialogCancel>Go Back to KinCharge</AlertDialogCancel>
-              <AlertDialogAction>Go to KinCharge Agency</AlertDialogAction>
+              <AlertDialogAction className="hidden">Go to KinCharge Agency</AlertDialogAction>
             </AlertDialogFooter>
           </AlertDialogContent>
         </AlertDialog>
@@ -106,7 +106,7 @@ export const Greeting = () => {
             </AlertDialogHeader>
             <AlertDialogFooter>
               <AlertDialogCancel>Go Back to KinCharge</AlertDialogCancel>
-              <AlertDialogAction>Go to KinCharge Offerings</AlertDialogAction>
+              <AlertDialogAction className="hidden">Go to KinCharge Offerings</AlertDialogAction>
             </AlertDialogFooter>
           </AlertDialogContent>
         </AlertDialog>
