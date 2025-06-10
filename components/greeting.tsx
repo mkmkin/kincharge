@@ -5,7 +5,7 @@ import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuTrigger,
-} from "@/components/ui/popover"
+} from "@/components/ui/dropdown-menu"
 
 
 export const Greeting = () => {
