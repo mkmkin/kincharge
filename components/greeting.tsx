@@ -2,9 +2,9 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuTrigger,
 } from "@/components/ui/popover"
 
 
@@ -50,31 +50,31 @@ export const Greeting = () => {
         What can I assist you with today?{ " " }  
         (You can also get helped by{ " " }
 
-        <Popover>
-          <PopoverTrigger>
+        <DropdownMenu>
+          <DropdownMenuTrigger>
             <span className="underline">
               our agency
             </span>{ " " }
-          </PopoverTrigger>
-          <PopoverContent>
+          </DropdownMenuTrigger>
+          <DropdownMenuContent>
             Place content for the popover here.
             <Link href="https://agency.kincharge.com" target="_blank" className="underline">visit website</Link>
-          </PopoverContent>
-        </Popover>
+          </DropdownMenuContent>
+        </DropdownMenu>
         
         and by{ " " }
         
-        <Popover>
-          <PopoverTrigger>
+        <DropdownMenu>
+          <DropdownMenuTrigger>
             <span className="underline">
               our other offerings
             </span>)
-          </PopoverTrigger>
-          <PopoverContent>
+          </DropdownMenuTrigger>
+          <DropdownMenuContent>
             Place content for the popover here.
             <Link href="https://offerings.kincharge.com" target="_blank" className="underline">our other offerings</Link>
-          </PopoverContent>
-        </Popover>
+          </DropdownMenuContent>
+        </DropdownMenu>
       </motion.div>
     </div>
   );
