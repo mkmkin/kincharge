@@ -13,8 +13,6 @@ import {
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog"
 
-import { Button } from "@/components/ui/button"
-
 
 export const Greeting = () => {
   return (
@@ -60,9 +58,9 @@ export const Greeting = () => {
        
         <AlertDialog>
   <AlertDialogTrigger>
-    <Button variant="link" className="underline">
+    <span className="underline">
       our agency
-    </Button>
+    </span>
   </AlertDialogTrigger>
   <AlertDialogContent>
     <AlertDialogHeader>
