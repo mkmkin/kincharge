@@ -2,16 +2,10 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 import {
-  AlertDialog,
-  AlertDialogAction,
-  AlertDialogCancel,
-  AlertDialogContent,
-  AlertDialogDescription,
-  AlertDialogFooter,
-  AlertDialogHeader,
-  AlertDialogTitle,
-  AlertDialogTrigger,
-} from "@/components/ui/alert-dialog"
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover"
 
 
 export const Greeting = () => {
@@ -55,31 +49,32 @@ export const Greeting = () => {
         I help you maximize and supercharge your efficiency and satisfaction.{ " " }
         What can I assist you with today?{ " " }  
         (You can also get helped by{ " " }
-       
-        <AlertDialog>
-  <AlertDialogTrigger>
-    <span className="underline">
-      our agency
-    </span>
-  </AlertDialogTrigger>
-  <AlertDialogContent>
-    <AlertDialogHeader>
-      <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
-      <AlertDialogDescription>
-        This action cannot be undone. This will permanently delete your account
-        and remove your data from our servers.
-      </AlertDialogDescription>
-    </AlertDialogHeader>
-    <AlertDialogFooter>
-      <AlertDialogCancel>Cancel</AlertDialogCancel>
-      <AlertDialogAction>Continue</AlertDialogAction>
-    </AlertDialogFooter>
-  </AlertDialogContent>
-</AlertDialog>
+
+        <Popover>
+          <PopoverTrigger>
+            <span className="underline">
+              our agency
+            </span>{ " " }
+          </PopoverTrigger>
+          <PopoverContent>
+            Place content for the popover here.
+            <Link href="https://agency.kincharge.com" target="_blank" className="underline">visit website</Link>
+          </PopoverContent>
+        </Popover>
         
-        <Link href="https://agency.kincharge.com" target="_blank" className="underline">our agency</Link>{ " " } 
         and by{ " " }
-        <Link href="https://offerings.kincharge.com" target="_blank" className="underline">our other offerings</Link>)
+        
+        <Popover>
+          <PopoverTrigger>
+            <span className="underline">
+              our other offerings
+            </span>)
+          </PopoverTrigger>
+          <PopoverContent>
+            Place content for the popover here.
+            <Link href="https://offerings.kincharge.com" target="_blank" className="underline">our other offerings</Link>
+          </PopoverContent>
+        </Popover>
       </motion.div>
     </div>
   );
