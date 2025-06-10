@@ -56,7 +56,11 @@ export const Greeting = () => {
         (You can also get helped by{ " " }
        
         <AlertDialog>
-  <AlertDialogTrigger class="border-none underline inline">our agency</AlertDialogTrigger>
+  <AlertDialogTrigger>
+    <span class="underline">
+      our agency
+    </span>
+  </AlertDialogTrigger>
   <AlertDialogContent>
     <AlertDialogHeader>
       <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
