@@ -2,11 +2,16 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
-
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from "@/components/ui/alert-dialog"
 
 export const Greeting = () => {
   return (
@@ -50,31 +55,52 @@ export const Greeting = () => {
         What can I assist you with today?{ " " }  
         (You can also get helped by{ " " }
 
-        <DropdownMenu>
-          <DropdownMenuTrigger>
+        <AlertDialog>
+          <AlertDialogTrigger>
             <span className="underline">
               our agency
             </span>{ " " }
-          </DropdownMenuTrigger>
-          <DropdownMenuContent>
-            Place content for the popover here.
-            <Link href="https://agency.kincharge.com" target="_blank" className="underline">visit website</Link>
-          </DropdownMenuContent>
-        </DropdownMenu>
+          </AlertDialogTrigger>
+          <AlertDialogContent>
+            <AlertDialogHeader>
+              <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
+              <AlertDialogDescription>
+                 This action cannot be undone. This will permanently delete your account
+                  and remove your data from our servers.
+                  <Link href="https://agency.kincharge.com" target="_blank" className="underline">visit website</Link>
+              </AlertDialogDescription>
+            </AlertDialogHeader>
+            <AlertDialogFooter>
+              <AlertDialogCancel>Cancel</AlertDialogCancel>
+              <AlertDialogAction>Continue</AlertDialogAction>
+            </AlertDialogFooter>
+          </AlertDialogContent>
+        </AlertDialog>
         
         and by{ " " }
-        
-        <DropdownMenu>
-          <DropdownMenuTrigger>
+
+        <AlertDialog>
+          <AlertDialogTrigger>
             <span className="underline">
               our other offerings
             </span>)
-          </DropdownMenuTrigger>
-          <DropdownMenuContent>
-            Place content for the popover here.
-            <Link href="https://offerings.kincharge.com" target="_blank" className="underline">our other offerings</Link>
-          </DropdownMenuContent>
-        </DropdownMenu>
+          </AlertDialogTrigger>
+          <AlertDialogContent>
+            <AlertDialogHeader>
+              <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
+              <AlertDialogDescription>
+                 This action cannot be undone. This will permanently delete your account
+                  and remove your data from our servers.
+                  <Link href="https://offerings.kincharge.com" target="_blank" className="underline">our other offerings</Link>
+              </AlertDialogDescription>
+            </AlertDialogHeader>
+            <AlertDialogFooter>
+              <AlertDialogCancel>Cancel</AlertDialogCancel>
+              <AlertDialogAction>Continue</AlertDialogAction>
+            </AlertDialogFooter>
+          </AlertDialogContent>
+        </AlertDialog>
+
       </motion.div>
     </div>
   );
