@@ -59,25 +59,33 @@ export const Greeting = () => {
           <AlertDialogTrigger>
             <span className="underline">
               our agency
-            </span>{ " " }
+            </span>
           </AlertDialogTrigger>
           <AlertDialogContent>
             <AlertDialogHeader>
-              <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
+              <AlertDialogTitle>KinCharge Agency</AlertDialogTitle>
               <AlertDialogDescription>
-                 This action cannot be undone. This will permanently delete your account
-                  and remove your data from our servers.
-                  <Link href="https://agency.kincharge.com" target="_blank" className="underline">visit website</Link>
+                <p>
+                  KinCharge Agency is a multi-service agency that offers useful services according to the needs:
+                  Information technology, Marketing, Design, Multimedia, Sales and Purchases, Freight, Transportation, Real Estate, Travel, Translation, Project Management, Fitness, Nutrition, Teaching and Training, Recruiting and Staffing, and more...
+                </p>
+                <p>
+                  <a href={`tel:‪+19298776893‬`} className="underline"> 
+                  Contact
+                  </a> 
+                  <br/>
+                  <Link href="https://agency.kincharge.com" target="_blank" className="underline">Website</Link>
+                </p>
               </AlertDialogDescription>
             </AlertDialogHeader>
             <AlertDialogFooter>
-              <AlertDialogCancel>Cancel</AlertDialogCancel>
-              <AlertDialogAction>Continue</AlertDialogAction>
+              <AlertDialogCancel>Go Back to KinCharge</AlertDialogCancel>
+              <AlertDialogAction>Go to KinCharge Agency</AlertDialogAction>
             </AlertDialogFooter>
           </AlertDialogContent>
         </AlertDialog>
         
-        and by{ " " }
+        { " " }and by{ " " }
 
         <AlertDialog>
           <AlertDialogTrigger>
@@ -87,16 +95,18 @@ export const Greeting = () => {
           </AlertDialogTrigger>
           <AlertDialogContent>
             <AlertDialogHeader>
-              <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
+              <AlertDialogTitle>KinCharge Other Offerings</AlertDialogTitle>
               <AlertDialogDescription>
-                 This action cannot be undone. This will permanently delete your account
-                  and remove your data from our servers.
-                  <Link href="https://offerings.kincharge.com" target="_blank" className="underline">our other offerings</Link>
+                <p>
+                  KinCharge currently only offers KinCharge AI and KinCharge Agency.
+                  More offerings will be added progressively.
+                  <Link href="https://offerings.kincharge.com" target="_blank" className="underline hidden">our other offerings</Link>                
+                </p>
               </AlertDialogDescription>
             </AlertDialogHeader>
             <AlertDialogFooter>
-              <AlertDialogCancel>Cancel</AlertDialogCancel>
-              <AlertDialogAction>Continue</AlertDialogAction>
+              <AlertDialogCancel>Go Back to KinCharge</AlertDialogCancel>
+              <AlertDialogAction>Go to KinCharge Offerings</AlertDialogAction>
             </AlertDialogFooter>
           </AlertDialogContent>
         </AlertDialog>
