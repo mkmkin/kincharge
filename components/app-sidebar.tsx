@@ -74,6 +74,65 @@ export function AppSidebar({ user }: { user: User | undefined }) {
           © 2025 KinCharge. All rights reserved.
         </div>
         <div className="text-sm text-zinc-500 mx-1">
+
+         <AlertDialog>
+          <AlertDialogTrigger>
+            <span className="underline">
+              Our Agency 
+            </span>
+          </AlertDialogTrigger>
+          <AlertDialogContent>
+            <AlertDialogHeader>
+              <AlertDialogTitle className="text-xl">KinCharge Agency</AlertDialogTitle>
+              <AlertDialogDescription className="text-lg">
+                <p >
+                  KinCharge Agency is a multi-service agency that offers useful services according to the needs:
+                  Information technology, Marketing, Design, Multimedia, Sales and Purchases, Freight, Transportation, Real Estate, Travel, Translation, Project Management, Fitness, Nutrition, Teaching and Training, Recruiting and Staffing, and more...
+                </p>
+                <p>
+                  <a href={`tel:‪+19298776893‬`} className="underline"> 
+                  Contact
+                  </a> 
+                  <br/>
+                  <Link href="https://agency.kincharge.com" target="_blank" className="underline">Website</Link>
+                </p>
+              </AlertDialogDescription>
+            </AlertDialogHeader>
+            <AlertDialogFooter>
+              <AlertDialogCancel>Go Back to KinCharge</AlertDialogCancel>
+              <AlertDialogAction className="hidden">Go to KinCharge Agency</AlertDialogAction>
+            </AlertDialogFooter>
+          </AlertDialogContent>
+        </AlertDialog>
+        
+        { " | " }
+
+        <AlertDialog>
+          <AlertDialogTrigger>
+            <span className="underline">
+              Our Other Offerings
+            </span>)
+          </AlertDialogTrigger>
+          <AlertDialogContent>
+            <AlertDialogHeader>
+              <AlertDialogTitle className="text-xl">KinCharge Other Offerings</AlertDialogTitle>
+              <AlertDialogDescription className="text-lg">
+                <p>
+                  KinCharge currently only offers KinCharge AI and KinCharge Agency.
+                  More offerings will be added progressively.
+                  <Link href="https://offerings.kincharge.com" target="_blank" className="underline hidden">our other offerings</Link>                
+                </p>
+              </AlertDialogDescription>
+            </AlertDialogHeader>
+            <AlertDialogFooter>
+              <AlertDialogCancel>Go Back to KinCharge</AlertDialogCancel>
+              <AlertDialogAction className="hidden">Go to KinCharge Offerings</AlertDialogAction>
+            </AlertDialogFooter>
+          </AlertDialogContent>
+        </AlertDialog>
+
+          { " | " }
+
           <Link href="https://agency.kincharge.com" target="_blank" className="underline">Our Agency</Link>
             { " | " }
           <Link href="https://offerings.kincharge.com" target="_blank" className="underline">Our Other Offerings</Link>
