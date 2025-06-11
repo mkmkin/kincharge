@@ -28,7 +28,7 @@ AlertDialogFooter,
 AlertDialogHeader,
 AlertDialogTitle,
 AlertDialogTrigger,
-from "@/components/ui/alert-dialog";
+} from "@/components/ui/alert-dialog";
 
 export function AppSidebar({ user }: { user: User | undefined }) {
   const router = useRouter();
