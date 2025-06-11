@@ -114,15 +114,15 @@ export function AppSidebar({ user }: { user: User | undefined }) {
               <AlertDialogAction className="hidden">Go to KinCharge Agency</AlertDialogAction>
             </AlertDialogFooter>
           </AlertDialogContent>
-        </AlertDialog>
+         </AlertDialog>
         
-        { " | " }
+          { " | " }
 
-        <AlertDialog>
+         <AlertDialog>
           <AlertDialogTrigger>
             <span className="underline">
               Our Other Offerings
-            </span>)
+            </span>
           </AlertDialogTrigger>
           <AlertDialogContent>
             <AlertDialogHeader>
@@ -140,23 +140,94 @@ export function AppSidebar({ user }: { user: User | undefined }) {
               <AlertDialogAction className="hidden">Go to KinCharge Offerings</AlertDialogAction>
             </AlertDialogFooter>
           </AlertDialogContent>
-        </AlertDialog>
+         </AlertDialog>
 
           { " | " }
 
-          <Link href="https://agency.kincharge.com" target="_blank" className="underline">Our Agency</Link>
-            { " | " }
-          <Link href="https://offerings.kincharge.com" target="_blank" className="underline">Our Other Offerings</Link>
-            { " | " }
-          <Link href="https://about.kincharge.com" target="_blank" className="underline">About Us</Link>
-            { " | " } 
-          <Link href="https://about.kincharge.com#privacy-policy" target="_blank" className="underline">Privacy Policy</Link>
-            { " | " } 
-          <Link href="https://about.kincharge.com#terms-of-use" target="_blank" className="underline">Terms of Use</Link>
-            { " | " } 
-          <Link href="https://about.kincharge.com#contact" target="_blank" className="underline">Contact</Link>
-            { " | " } 
-          <Link href="https://github.com/mkmkin/kincharge/tree/main" target="_blank" className="underline">Source Code</Link>
+         <AlertDialog>
+          <AlertDialogTrigger>
+            <span className="underline">
+              About Us
+            </span>
+          </AlertDialogTrigger>
+          <AlertDialogContent>
+            <AlertDialogHeader>
+              <AlertDialogTitle className="text-xl">About KinCharge</AlertDialogTitle>
+              <AlertDialogDescription className="text-lg">
+                <p>
+                  KinCharge currently only offers KinCharge AI and KinCharge Agency.
+                  More offerings will be added progressively.
+                  <Link href="https://offerings.kincharge.com" target="_blank" className="underline hidden">our other offerings</Link>                
+                </p>
+              </AlertDialogDescription>
+            </AlertDialogHeader>
+            <AlertDialogFooter>
+              <AlertDialogCancel>Go Back to KinCharge</AlertDialogCancel>
+              <AlertDialogAction className="hidden">Go to KinCharge Offerings</AlertDialogAction>
+            </AlertDialogFooter>
+          </AlertDialogContent>
+         </AlertDialog>
+
+          { " | " }
+
+         <AlertDialog>
+          <AlertDialogTrigger>
+            <span className="underline">
+              Privacy Policy
+            </span>
+          </AlertDialogTrigger>
+          <AlertDialogContent>
+            <AlertDialogHeader>
+              <AlertDialogTitle className="text-xl">KinCharge Privacy Policy</AlertDialogTitle>
+              <AlertDialogDescription className="text-lg">
+                <p>
+                  KinCharge currently only offers KinCharge AI and KinCharge Agency.
+                  More offerings will be added progressively.
+                  <Link href="https://offerings.kincharge.com" target="_blank" className="underline hidden">our other offerings</Link>                
+                </p>
+              </AlertDialogDescription>
+            </AlertDialogHeader>
+            <AlertDialogFooter>
+              <AlertDialogCancel>Go Back to KinCharge</AlertDialogCancel>
+              <AlertDialogAction className="hidden">Go to KinCharge Offerings</AlertDialogAction>
+            </AlertDialogFooter>
+          </AlertDialogContent>
+         </AlertDialog>
+
+          { " | " }
+
+         <AlertDialog>
+          <AlertDialogTrigger>
+            <span className="underline">
+              Terms of Use
+            </span>
+          </AlertDialogTrigger>
+          <AlertDialogContent>
+            <AlertDialogHeader>
+              <AlertDialogTitle className="text-xl">KinCharge Terms of Use</AlertDialogTitle>
+              <AlertDialogDescription className="text-lg">
+                <p>
+                  KinCharge currently only offers KinCharge AI and KinCharge Agency.
+                  More offerings will be added progressively.
+                  <Link href="https://offerings.kincharge.com" target="_blank" className="underline hidden">our other offerings</Link>                
+                </p>
+              </AlertDialogDescription>
+            </AlertDialogHeader>
+            <AlertDialogFooter>
+              <AlertDialogCancel>Go Back to KinCharge</AlertDialogCancel>
+              <AlertDialogAction className="hidden">Go to KinCharge Offerings</AlertDialogAction>
+            </AlertDialogFooter>
+          </AlertDialogContent>
+         </AlertDialog>
+
+          { " | " }
+
+         <a href={`tel:‪+19298776893‬`} className="underline">Contact</a>
+          
+          { " | " } 
+          
+         <Link href="https://github.com/mkmkin/kincharge/tree/main" target="_blank" className="underline">Source Code</Link>
+        
         </div>
         {user && <SidebarUserNav user={user} />}
       </SidebarFooter>
