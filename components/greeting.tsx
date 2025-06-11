@@ -63,8 +63,8 @@ export const Greeting = () => {
           </AlertDialogTrigger>
           <AlertDialogContent>
             <AlertDialogHeader>
-              <AlertDialogTitle>KinCharge Agency</AlertDialogTitle>
-              <AlertDialogDescription>
+              <AlertDialogTitle className="text-xl">KinCharge Agency</AlertDialogTitle>
+              <AlertDialogDescription className="text-lg">
                 <p>
                   KinCharge Agency is a multi-service agency that offers useful services according to the needs:
                   Information technology, Marketing, Design, Multimedia, Sales and Purchases, Freight, Transportation, Real Estate, Travel, Translation, Project Management, Fitness, Nutrition, Teaching and Training, Recruiting and Staffing, and more...
@@ -95,8 +95,8 @@ export const Greeting = () => {
           </AlertDialogTrigger>
           <AlertDialogContent>
             <AlertDialogHeader>
-              <AlertDialogTitle>KinCharge Other Offerings</AlertDialogTitle>
-              <AlertDialogDescription>
+              <AlertDialogTitle className="text-xl">KinCharge Other Offerings</AlertDialogTitle>
+              <AlertDialogDescription className="text-lg">
                 <p>
                   KinCharge currently only offers KinCharge AI and KinCharge Agency.
                   More offerings will be added progressively.
