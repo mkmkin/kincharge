@@ -18,7 +18,6 @@ import {
 import Link from 'next/link';
 import Image from 'next/image';
 import { Tooltip, TooltipContent, TooltipTrigger } from './ui/tooltip';
-4
 import {
 AlertDialog,
 AlertDialogAction,
@@ -29,7 +28,7 @@ AlertDialogFooter,
 AlertDialogHeader,
 AlertDialogTitle,
 AlertDialogTrigger,
-from "@/components/ui/alert-dialog"
+from "@/components/ui/alert-dialog";
 
 export function AppSidebar({ user }: { user: User | undefined }) {
   const router = useRouter();
