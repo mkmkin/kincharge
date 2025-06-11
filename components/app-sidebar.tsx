@@ -180,6 +180,8 @@ export function AppSidebar({ user }: { user: User | undefined }) {
               <AlertDialogTitle className="text-xl">KinCharge Privacy Policy</AlertDialogTitle>
               <AlertDialogDescription className="text-lg">
                 <p>
+
+                  { `
                   Last Updated: June 11, 2025
 Welcome to KinCharge (kincharge.com), an open-source AI product. This Privacy Policy explains how KinCharge collects, uses, and protects your information. We are committed to safeguarding your privacy and will progressively limit the use of third-party services that may not be open source, especially those known to abuse user privacy and data.
 1. Information We Collect
@@ -211,7 +213,7 @@ KinCharge does not use cookies or any similar tracking technologies.
 While KinCharge does not impose age restrictions, we emphasize that parents should always monitor their children's use of online services, including KinCharge.
 9. Changes to This Privacy Policy
 We may update our Privacy Policy from time to time. We will notify you of any changes by email. Your continued use of KinCharge after such notification constitutes your acceptance of the updated policy.
-
+                   ` }
                   <Link href="https://offerings.kincharge.com" target="_blank" className="underline hidden">our other offerings</Link>                
                 </p>
               </AlertDialogDescription>
@@ -236,6 +238,7 @@ We may update our Privacy Policy from time to time. We will notify you of any ch
               <AlertDialogTitle className="text-xl">KinCharge Terms of Use</AlertDialogTitle>
               <AlertDialogDescription className="text-lg">
                 <p>
+                  { `
                   Last Updated: June 11, 2025
 Welcome to KinCharge (kincharge.com), an open-source AI product. These Terms of Use govern your access to and use of the KinCharge web application. By accessing or using KinCharge, you agree to be bound by these Terms.
 1. Primary Functionalities
@@ -271,7 +274,7 @@ Important Considerations:
  * Jurisdiction: I've noted "Democratic Republic of Congo" for dispute resolution, but ensure this is the correct and preferred jurisdiction.
  * Third-Party Services: Your privacy policy clearly states "no one" for data sharing. If you ever integrate with any analytics, payment, or other services that process user data, you must update this section immediately and specify what data is shared and why. Your commitment to limiting non-open source services is good, but any that remain or are added need disclosure.
  * Encryption: While you state "can be encrypted on demand," consider whether you want to offer client-side encryption, server-side encryption, or both, and clarify that in the policy if it's a key feature.
-
+                   ` }
                   <Link href="https://offerings.kincharge.com" target="_blank" className="underline hidden">our other offerings</Link>                
                 </p>
               </AlertDialogDescription>
