@@ -169,13 +169,13 @@ export function AppSidebar({ user }: { user: User | undefined }) {
 
           { " | " }
 
-         <AlertDialog className="max-h-full">
+         <AlertDialog>
           <AlertDialogTrigger>
             <span className="underline">
               Privacy Policy
             </span>
           </AlertDialogTrigger>
-          <AlertDialogContent>
+          <AlertDialogContent className="max-h-full">
             <AlertDialogHeader>
               <AlertDialogTitle className="text-xl">KinCharge Privacy Policy</AlertDialogTitle>
               <AlertDialogDescription className="text-lg">
