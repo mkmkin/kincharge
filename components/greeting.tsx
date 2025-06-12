@@ -64,7 +64,7 @@ export const Greeting = () => {
           <AlertDialogContent>
             <AlertDialogHeader>
               <AlertDialogTitle className="text-xl">KinCharge Agency</AlertDialogTitle>
-              <AlertDialogDescription className="text-lg">
+              <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p>
                   KinCharge Agency is a multi-service agency that offers useful services according to the needs:
                   Information technology, Marketing, Design, Multimedia, Sales and Purchases, Freight, Transportation, Real Estate, Travel, Translation, Project Management, Fitness, Nutrition, Teaching and Training, Recruiting and Staffing, and more...
@@ -79,8 +79,8 @@ export const Greeting = () => {
               </AlertDialogDescription>
             </AlertDialogHeader>
             <AlertDialogFooter>
-              <AlertDialogCancel>Go Back to KinCharge</AlertDialogCancel>
-              <AlertDialogAction className="hidden">Go to KinCharge Agency</AlertDialogAction>
+              <AlertDialogCancel className="text-lg">Go Back to KinCharge</AlertDialogCancel>
+              <AlertDialogAction className="text-lg hidden">Go to KinCharge Agency</AlertDialogAction>
             </AlertDialogFooter>
           </AlertDialogContent>
         </AlertDialog>
@@ -96,7 +96,7 @@ export const Greeting = () => {
           <AlertDialogContent>
             <AlertDialogHeader>
               <AlertDialogTitle className="text-xl">KinCharge Other Offerings</AlertDialogTitle>
-              <AlertDialogDescription className="text-lg">
+              <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p>
                   KinCharge currently only offers KinCharge AI and KinCharge Agency.
                   More offerings will be added progressively.
@@ -105,8 +105,8 @@ export const Greeting = () => {
               </AlertDialogDescription>
             </AlertDialogHeader>
             <AlertDialogFooter>
-              <AlertDialogCancel>Go Back to KinCharge</AlertDialogCancel>
-              <AlertDialogAction className="hidden">Go to KinCharge Offerings</AlertDialogAction>
+              <AlertDialogCancel className="text-lg">Go Back to KinCharge</AlertDialogCancel>
+              <AlertDialogAction className="text-lg hidden">Go to KinCharge Offerings</AlertDialogAction>
             </AlertDialogFooter>
           </AlertDialogContent>
         </AlertDialog>
