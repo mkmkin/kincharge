@@ -169,7 +169,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
 
           { " | " }
 
-         <AlertDialog>
+         <AlertDialog className="max-h-full">
           <AlertDialogTrigger>
             <span className="underline">
               Privacy Policy
