@@ -110,8 +110,8 @@ export function AppSidebar({ user }: { user: User | undefined }) {
               </AlertDialogDescription>
             </AlertDialogHeader>
             <AlertDialogFooter>
-              <AlertDialogCancel>Go Back to KinCharge</AlertDialogCancel>
-              <AlertDialogAction className="hidden">Go to KinCharge Agency</AlertDialogAction>
+              <AlertDialogCancel className="text-lg">Go Back to KinCharge</AlertDialogCancel>
+              <AlertDialogAction className="text-lg hidden">Go to KinCharge Agency</AlertDialogAction>
             </AlertDialogFooter>
           </AlertDialogContent>
          </AlertDialog>
@@ -136,8 +136,8 @@ export function AppSidebar({ user }: { user: User | undefined }) {
               </AlertDialogDescription>
             </AlertDialogHeader>
             <AlertDialogFooter>
-              <AlertDialogCancel>Go Back to KinCharge</AlertDialogCancel>
-              <AlertDialogAction className="hidden">Go to KinCharge Offerings</AlertDialogAction>
+              <AlertDialogCancel className="text-lg">Go Back to KinCharge</AlertDialogCancel>
+              <AlertDialogAction className="text-lg hidden">Go to KinCharge Offerings</AlertDialogAction>
             </AlertDialogFooter>
           </AlertDialogContent>
          </AlertDialog>
@@ -161,8 +161,8 @@ export function AppSidebar({ user }: { user: User | undefined }) {
               </AlertDialogDescription>
             </AlertDialogHeader>
             <AlertDialogFooter>
-              <AlertDialogCancel>Go Back to KinCharge</AlertDialogCancel>
-              <AlertDialogAction className="hidden">Go to KinCharge Offerings</AlertDialogAction>
+              <AlertDialogCancel className="text-lg">Go Back to KinCharge</AlertDialogCancel>
+              <AlertDialogAction className="text-lg hidden">Go to KinCharge Offerings</AlertDialogAction>
             </AlertDialogFooter>
           </AlertDialogContent>
          </AlertDialog>
@@ -219,8 +219,8 @@ We may update our Privacy Policy from time to time. We will notify you of any ch
               </AlertDialogDescription>
             </AlertDialogHeader>
             <AlertDialogFooter>
-              <AlertDialogCancel>Go Back to KinCharge</AlertDialogCancel>
-              <AlertDialogAction className="hidden">Go to KinCharge Offerings</AlertDialogAction>
+              <AlertDialogCancel className="text-lg">Go Back to KinCharge</AlertDialogCancel>
+              <AlertDialogAction className="text-lg hidden">Go to KinCharge Offerings</AlertDialogAction>
             </AlertDialogFooter>
           </AlertDialogContent>
          </AlertDialog>
@@ -280,8 +280,8 @@ Important Considerations:
               </AlertDialogDescription>
             </AlertDialogHeader>
             <AlertDialogFooter>
-              <AlertDialogCancel>Go Back to KinCharge</AlertDialogCancel>
-              <AlertDialogAction className="hidden">Go to KinCharge Offerings</AlertDialogAction>
+              <AlertDialogCancel className="text-lg">Go Back to KinCharge</AlertDialogCancel>
+              <AlertDialogAction className="text-lg hidden">Go to KinCharge Offerings</AlertDialogAction>
             </AlertDialogFooter>
           </AlertDialogContent>
          </AlertDialog>
