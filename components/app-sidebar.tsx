@@ -95,7 +95,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
           <AlertDialogContent>
             <AlertDialogHeader>
               <AlertDialogTitle className="text-xl">KinCharge Agency</AlertDialogTitle>
-              <AlertDialogDescription className="text-lg">
+              <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p >
                   KinCharge Agency is a multi-service agency that offers useful services according to the needs:
                   Information technology, Marketing, Design, Multimedia, Sales and Purchases, Freight, Transportation, Real Estate, Travel, Translation, Project Management, Fitness, Nutrition, Teaching and Training, Recruiting and Staffing, and more...
@@ -127,7 +127,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
           <AlertDialogContent>
             <AlertDialogHeader>
               <AlertDialogTitle className="text-xl">KinCharge Other Offerings</AlertDialogTitle>
-              <AlertDialogDescription className="text-lg">
+              <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p>
                   KinCharge currently only offers KinCharge AI and KinCharge Agency.
                   More offerings will be added progressively.
@@ -153,7 +153,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
           <AlertDialogContent>
             <AlertDialogHeader>
               <AlertDialogTitle className="text-xl">About KinCharge</AlertDialogTitle>
-              <AlertDialogDescription className="text-lg">
+              <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p>
                   KinCharge mission is to supercharge and maximize the world’s efficiency and satisfaction with artificial intelligence working alongside with human talent and expertise from its multi-service agency, and with other offerings that will progressively be added.
                   <Link href="https://offerings.kincharge.com" target="_blank" className="underline hidden">our other offerings</Link>                
@@ -236,7 +236,7 @@ We may update our Privacy Policy from time to time. We will notify you of any ch
           <AlertDialogContent>
             <AlertDialogHeader>
               <AlertDialogTitle className="text-xl">KinCharge Terms of Use</AlertDialogTitle>
-              <AlertDialogDescription className="text-lg">
+              <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p>
                   { `
                   Last Updated: June 11, 2025
