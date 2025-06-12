@@ -175,10 +175,10 @@ export function AppSidebar({ user }: { user: User | undefined }) {
               Privacy Policy
             </span>
           </AlertDialogTrigger>
-          <AlertDialogContent className="max-h-full">
+          <AlertDialogContent>
             <AlertDialogHeader>
               <AlertDialogTitle className="text-xl">KinCharge Privacy Policy</AlertDialogTitle>
-              <AlertDialogDescription className="text-lg">
+              <AlertDialogDescription className="text-lg max-h-full overflow-y-scroll">
                 <p>
 
                   { `
