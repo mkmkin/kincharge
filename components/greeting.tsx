@@ -74,7 +74,7 @@ export const Greeting = () => {
                   Contact
                   </a> 
                   <br/>
-                  <Link href="https://agency.kincharge.com" target="_blank" className="underline">Website</Link>
+                  <Link href="https://agency.kincharge.com" target="_blank" className="underline hidden">Website</Link>
                 </p>
               </AlertDialogDescription>
             </AlertDialogHeader>
