@@ -29,13 +29,13 @@ export const myProvider = isTestEnvironment
           middleware: extractReasoningMiddleware({ tagName: 'think' }),
         }),
         'title-model': xai('grok-3-latest'),
-        'artifact-model': xai('grok-3-latest'),
-        'search_parameters': {
-            'mode': 'on',
-            'return_citations': True
-          },
+        'artifact-model': xai('grok-3-latest'),     
       },
       imageModels: {
         'small-model': xai.image('grok-2-image-latest'),
+      },
+      'search_parameters': {
+            'mode': 'on',
+            'return_citations': True
       },
     });
