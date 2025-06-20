@@ -98,7 +98,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
               <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p >
                   
-                  { `Get a custom artificial intelligence integration with all KinCharge AI features (AI Assistance, AI Automation, Conversational AI, Live Search from KinCharge Search, Text Generation, Audio and Video Transcription, Image and Video Generation, and more.` }
+                  { `Get a custom artificial intelligence integration with all KinCharge AI features (AI Assistance, AI Automation, Conversational AI, Live Web Search, Text Generation, Audio and Video Transcription, Image and Video Generation, and more.` }
                 </p>
                 <p>
                   <a href={`tel:‪+19298776893‬`} className="underline"> 
@@ -121,22 +121,23 @@ export function AppSidebar({ user }: { user: User | undefined }) {
          <AlertDialog>
           <AlertDialogTrigger>
             <span className="underline">
-              Our Marketplace
+              Our Agency 
             </span>
           </AlertDialogTrigger>
           <AlertDialogContent>
             <AlertDialogHeader>
-              <AlertDialogTitle className="text-xl">KinCharge Market</AlertDialogTitle>
+              <AlertDialogTitle className="text-xl">KinCharge Agency</AlertDialogTitle>
               <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p >
-                  { `KinCharge Market's goal is to make it easier for everyone to find and/or sell any product or service imaginable all over the world.` }
+                  { `KinCharge Agency is a multi-service agency that offers useful services according to the needs: Custom Artificial Intelligence Integration, Information Technology, Marketing, Design, Multimedia, Sales and Purchases, Freight, Transportation, Real Estate, Travel, Translation, Project Management, Fitness, Nutrition, Teaching and Training, Recruiting and Staffing, and more.` }
                 </p>
                 <p>
-                  <Link href="https://market.kincharge.com" target="_blank" className="underline">Go to KinCharge Market</Link>
+                  <Link href="https://agency.kincharge.com" target="_blank" className="underline hidden">Go to KinCharge Agency</Link>
                    <br />
-                   <a href={`tel:‪+19298776893‬`} className="underline"> 
+                  <a href={`tel:‪+19298776893‬`} className="underline"> 
                      Contact Us
-                  </a> 
+                  </a>
+                   <br />
                 </p>
               </AlertDialogDescription>
             </AlertDialogHeader>
@@ -160,7 +161,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
               <AlertDialogTitle className="text-xl">KinCharge Other Offerings</AlertDialogTitle>
               <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p>
-                  { `KinCharge currently offers the following products and services: KinCharge AI, KinCharge Search, and KinCharge Market
+                  { `KinCharge currently offers the following products and services: KinCharge AI, and KinCharge Agency.
                   More offerings will be added progressively.` }
                   <Link href="https://offerings.kincharge.com" target="_blank" className="underline hidden">our other offerings</Link>                
                 </p>
