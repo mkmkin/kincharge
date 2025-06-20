@@ -133,7 +133,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
                 </p>
                 <p>
                   <Link href="https://agency.kincharge.com" target="_blank" className="underline hidden">Go to KinCharge Agency</Link>
-                   <br />
+                   <br className="hidden"/>
                   <a href={`tel:‪+19298776893‬`} className="underline"> 
                      Contact Us
                   </a>
