@@ -17,7 +17,7 @@ export const Greeting = () => {
   return (
     <div
       key="overview"
-      className="max-w-3xl mx-auto md:mt-20 px-8 size-full flex flex-col justify-center"
+      className="hidden max-w-3xl mx-auto md:mt-20 px-8 size-full flex flex-col justify-center"
     >
 
       <motion.div
