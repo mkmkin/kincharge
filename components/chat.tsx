@@ -138,7 +138,7 @@ export function Chat({
           isArtifactVisible={isArtifactVisible}
         />
 
-        <form className="hidden mx-auto px-4 bg-background pb-4 md:pb-6 gap-2 w-full md:max-w-3xl overflow-x-clip flex-shrink min-w-0">
+        <form className="hidden mx-auto px-4 bg-background pb-4 md:pb-6 gap-2 w-full md:max-w-3xl flex overflow-x-clip flex-shrink min-w-0">
           {!isReadonly && (
             <MultimodalInput
               chatId={id}
