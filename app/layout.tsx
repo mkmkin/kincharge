@@ -16,7 +16,7 @@ export const viewport = {
   width: 'device-width',
   initialScale: 1,
   //shrinkToFit: true,
-  //maximumScale: 1, // Disable auto-zoom on mobile Safari
+  maximumScale: 1, // Disable auto-zoom on mobile Safari
   //userScalable: false,
   // Also supported but less commonly used
   //interactiveWidget: 'resizes-visual',
