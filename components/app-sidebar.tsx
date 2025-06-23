@@ -129,7 +129,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
               <AlertDialogTitle className="text-xl">KinCharge Agency</AlertDialogTitle>
               <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p >
-                  { `KinCharge Agency is a multi-service agency that offers useful services according to the needs: Custom Artificial Intelligence Integration, Information Technology, Marketing, Design, Multimedia, Sales and Purchases, Freight, Transportation, Real Estate, Travel, Translation, Project Management, Fitness, Nutrition, Teaching and Training, Recruiting and Staffing, and more.` }
+                  { `KinCharge Agency helps you meet your needs and solve your problems with the right products and services offered by us and by our partners. You can contact us about any of the following and more: Artificial Intelligence, Information Technology, Marketing, Design, Multimedia, Sales and Purchases, Freight, Transportation, Real Estate, Travel, Translation, Project Management, Fitness, Nutrition, Teaching and Training, Recruiting and Staffing, and more.` }
                 </p>
                 <p>
                   <Link href="https://agency.kincharge.com" target="_blank" className="underline hidden">Go to KinCharge Agency</Link>
