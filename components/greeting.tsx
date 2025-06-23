@@ -80,7 +80,7 @@ export const Greeting = () => {
             </AlertDialogHeader>
             <AlertDialogFooter>
               <AlertDialogCancel className="text-lg">Go Back to KinCharge</AlertDialogCancel>
-              <AlertDialogAction className="text-lg">
+              <AlertDialogAction className="text-lg hidden">
                   <a href={`tel:‪+19298776893‬`} className=""> 
                      Contact Us
                   </a>
