@@ -66,7 +66,7 @@ export const Greeting = () => {
               <AlertDialogTitle className="text-xl">KinCharge Agency</AlertDialogTitle>
               <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p>
-                   KinCharge Agency helps you meet your needs and solve your problems with the right products and services offered by us and by our partners. You can <a href={`tel:‪+19298776893‬`} className="underline">Contact Us</a> about any of the following and more: Artificial Intelligence, Information Technology, Marketing, Design, Multimedia, Sales and Purchases, Freight, Transportation, Real Estate, Travel, Translation, Project Management, Fitness, Nutrition, Teaching and Training, Recruiting and Staffing, and more.                 
+                   KinCharge Agency helps you meet your needs and solve your problems with the right products and services offered by us and by our partners. You can <a href={`tel:‪+19298776893‬`} className="underline">contact us</a> about any of the following and more: Artificial Intelligence, Information Technology, Marketing, Design, Multimedia, Sales and Purchases, Freight, Transportation, Real Estate, Travel, Translation, Project Management, Fitness, Nutrition, Teaching and Training, Recruiting and Staffing, and more.                 
                 </p>
                 <p>
                   <Link href="https://agency.kincharge.com" target="_blank" className="underline hidden">Go to KinCharge Agency</Link>
