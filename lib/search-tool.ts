@@ -1,6 +1,6 @@
 // tools/search-tool.ts
 
-import { braveSearch } from '@/utils/brave-search';
+import { braveSearch } from '@/lib/brave-search';
 
 export const searchTool = async ({ query }: { query: string }) => {
   const results = await braveSearch(query);
