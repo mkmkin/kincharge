@@ -36,7 +36,6 @@ import { after } from 'next/server';
 import type { Chat } from '@/lib/db/schema';
 import { differenceInSeconds } from 'date-fns';
 import { ChatSDKError } from '@/lib/errors';
-import { searchTool } from '@/lib/search-tool';
 
 
 export const maxDuration = 60;
@@ -161,7 +160,6 @@ export async function POST(request: Request) {
                   'createDocument',
                   'updateDocument',
                   'requestSuggestions',
-                   'search',
                 ],
           experimental_transform: smoothStream({ chunking: 'word' }),
           experimental_generateMessageId: generateUUID,
@@ -172,8 +170,7 @@ export async function POST(request: Request) {
             requestSuggestions: requestSuggestions({
               session,
               dataStream,
-            }),
-            search: searchTool          
+            })         
           },
           onFinish: async ({ response }) => {
             if (session.user?.id) {
