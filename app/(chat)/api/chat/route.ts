@@ -173,7 +173,7 @@ export async function POST(request: Request) {
               session,
               dataStream,
             }),
-            search: braveSearch          
+            search: searchTool          
           },
           onFinish: async ({ response }) => {
             if (session.user?.id) {
