@@ -36,6 +36,10 @@ import { after } from 'next/server';
 import type { Chat } from '@/lib/db/schema';
 import { differenceInSeconds } from 'date-fns';
 import { ChatSDKError } from '@/lib/errors';
+import { createQuestionTool } from '../tools/question'
+import { retrieveTool } from '../tools/retrieve'
+import { createSearchTool } from '../tools/search'
+import { createVideoSearchTool } from '../tools/video-search'
 
 export const maxDuration = 60;
 
@@ -160,6 +164,9 @@ export async function POST(request: Request) {
                   'updateDocument',
                   'requestSuggestions',
                 ],
+             searchMode
+             ? ['search', 'retrieve', 'videoSearch', 'ask_question']
+             : [],
           experimental_transform: smoothStream({ chunking: 'word' }),
           experimental_generateMessageId: generateUUID,
           tools: {
@@ -170,6 +177,10 @@ export async function POST(request: Request) {
               session,
               dataStream,
             }),
+            search: searchTool,
+            retrieve: retrieveTool,
+            videoSearch: videoSearchTool,
+            ask_question: askQuestionTool          
           },
           onFinish: async ({ response }) => {
             if (session.user?.id) {
