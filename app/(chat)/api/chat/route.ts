@@ -36,7 +36,7 @@ import { after } from 'next/server';
 import type { Chat } from '@/lib/db/schema';
 import { differenceInSeconds } from 'date-fns';
 import { ChatSDKError } from '@/lib/errors';
-import { braveSearch } from '@/lib/brave-search';
+import { searchTool } from '@/lib/search-tool';
 
 
 export const maxDuration = 60;
