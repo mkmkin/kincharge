@@ -172,6 +172,9 @@ export async function POST(request: Request) {
               dataStream,
             })         
           },
+          search_parameters: {
+            mode: 'auto',
+          },
           onFinish: async ({ response }) => {
             if (session.user?.id) {
               try {
