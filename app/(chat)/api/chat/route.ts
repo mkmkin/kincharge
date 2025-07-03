@@ -4,6 +4,7 @@ import {
   createDataStream,
   smoothStream,
   streamText,
+  tool
 } from 'ai';
 import { auth, type UserType } from '@/app/(auth)/auth';
 import { type RequestHints, systemPrompt } from '@/lib/ai/prompts';
@@ -36,7 +37,7 @@ import { after } from 'next/server';
 import type { Chat } from '@/lib/db/schema';
 import { differenceInSeconds } from 'date-fns';
 import { ChatSDKError } from '@/lib/errors';
-
+import { z } from 'zod';
 
 export const maxDuration = 60;
 
@@ -145,6 +146,41 @@ export async function POST(request: Request) {
     const streamId = generateUUID();
     await createStreamId({ streamId, chatId: id });
 
+
+    const webSearch = tool({
+  description: 'Search the web for up-to-date information',
+  parameters: z.object({
+    query: z.string().min(1).max(100).describe('The search query'),
+  }),
+  execute: async ({ query }) => {
+    const response = await fetch(
+      `https://api.search.brave.com/res/v1/web/search?q=${encodeURIComponent(query)}`,
+      {
+        headers: {
+          'Accept': 'application/json',
+          'X-Subscription-Token': process.env.BRAVE_SEARCH_API_KEY!,
+        },
+      }
+    );
+
+    if (!response.ok) {
+      throw new Error(`Brave Search API error: ${response.statusText}`);
+    }
+
+    const data = await response.json();
+
+    const results = data.web?.results || [];
+
+    return results.slice(0, 3).map((result: any) => ({
+      title: result.title,
+      url: result.url,
+      content: result.description?.slice(0, 1000) || '',
+      publishedDate: result.date || null, // Brave doesn't always return this
+    }));
+  },
+});
+
+
     const stream = createDataStream({
       execute: (dataStream) => {
         const result = streamText({
@@ -160,6 +196,7 @@ export async function POST(request: Request) {
                   'createDocument',
                   'updateDocument',
                   'requestSuggestions',
+                   'webSearch'
                 ],
           experimental_transform: smoothStream({ chunking: 'word' }),
           experimental_generateMessageId: generateUUID,
@@ -170,7 +207,8 @@ export async function POST(request: Request) {
             requestSuggestions: requestSuggestions({
               session,
               dataStream,
-            })         
+            }),
+            webSearch         
           },
           onFinish: async ({ response }) => {
             if (session.user?.id) {
