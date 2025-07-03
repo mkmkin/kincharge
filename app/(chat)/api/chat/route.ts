@@ -176,7 +176,7 @@ export async function POST(request: Request) {
             mode: 'auto',
             return_citations: true
           },
-          onFinish: async ({ response }) => {
+          onFinish: async ({ response }: { response: any }) => {
             if (session.user?.id) {
               try {
                 const assistantId = getTrailingMessageId({
