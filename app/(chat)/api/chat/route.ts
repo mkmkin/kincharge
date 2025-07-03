@@ -176,7 +176,7 @@ export async function POST(request: Request) {
             mode: 'auto',
             return_citations: true
           },
-          onFinish: async ({ response }: { response: any }) => {
+          onFinish: async ({ response }) => {
             if (session.user?.id) {
               try {
                 const assistantId = getTrailingMessageId({
@@ -216,7 +216,7 @@ export async function POST(request: Request) {
             isEnabled: isProductionEnvironment,
             functionId: 'stream-text',
           },
-        } as any);
+        });
 
         result.consumeStream();
 
@@ -227,7 +227,7 @@ export async function POST(request: Request) {
       onError: () => {
         return 'Oops, an error occurred!';
       },
-    });
+    } as any);
 
     const streamContext = getStreamContext();
 
