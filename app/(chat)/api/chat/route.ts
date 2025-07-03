@@ -158,7 +158,7 @@ export async function POST(request: Request) {
       {
         headers: {
           'Accept': 'application/json',
-          'X-Subscription-Token': process.env.BRAVE_SEARCH_API_KEY!,
+          'X-Subscription-Token': process.env.BRAVE_API_KEY!,
         },
       }
     );
