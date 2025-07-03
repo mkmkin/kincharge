@@ -45,7 +45,7 @@ const webSearch = tool({
     query: z.string().min(1).max(100).describe('The search query'),
   }),
   execute: async ({ query }) => {
-    alert("ran");
+    console.log('webSearch tool executed');
     const response = await fetch(
       `https://api.search.brave.com/res/v1/web/search?q=${encodeURIComponent(query)}`,
       {
