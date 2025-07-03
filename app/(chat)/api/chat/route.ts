@@ -66,6 +66,39 @@ function getStreamContext() {
 export async function POST(request: Request) {
   let requestBody: PostRequestBody;
 
+const webSearch = tool({
+  description: 'Search the web for up-to-date information',
+  parameters: z.object({
+    query: z.string().min(1).max(100).describe('The search query'),
+  }),
+  execute: async ({ query }) => {
+    const response = await fetch(
+      `https://api.search.brave.com/res/v1/web/search?q=${encodeURIComponent(query)}`,
+      {
+        headers: {
+          'Accept': 'application/json',
+          'X-Subscription-Token': process.env.BRAVE_API_KEY!,
+        },
+      }
+    );
+
+    if (!response.ok) {
+      throw new Error(`Brave Search API error: ${response.statusText}`);
+    }
+
+    const data = await response.json();
+
+    const results = data.web?.results || [];
+
+    return results.slice(0, 3).map((result: any) => ({
+      title: result.title,
+      url: result.url,
+      content: result.description?.slice(0, 1000) || '',
+      publishedDate: result.date || null, // Brave doesn't always return this
+    }));
+  },
+});
+
   try {
     const json = await request.json();
     requestBody = postRequestBodySchema.parse(json);
@@ -145,40 +178,6 @@ export async function POST(request: Request) {
 
     const streamId = generateUUID();
     await createStreamId({ streamId, chatId: id });
-
-
-    const webSearch = tool({
-  description: 'Search the web for up-to-date information',
-  parameters: z.object({
-    query: z.string().min(1).max(100).describe('The search query'),
-  }),
-  execute: async ({ query }) => {
-    const response = await fetch(
-      `https://api.search.brave.com/res/v1/web/search?q=${encodeURIComponent(query)}`,
-      {
-        headers: {
-          'Accept': 'application/json',
-          'X-Subscription-Token': process.env.BRAVE_API_KEY!,
-        },
-      }
-    );
-
-    if (!response.ok) {
-      throw new Error(`Brave Search API error: ${response.statusText}`);
-    }
-
-    const data = await response.json();
-
-    const results = data.web?.results || [];
-
-    return results.slice(0, 3).map((result: any) => ({
-      title: result.title,
-      url: result.url,
-      content: result.description?.slice(0, 1000) || '',
-      publishedDate: result.date || null, // Brave doesn't always return this
-    }));
-  },
-});
 
 
     const stream = createDataStream({
