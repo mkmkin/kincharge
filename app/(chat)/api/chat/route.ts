@@ -196,7 +196,7 @@ export async function POST(request: Request) {
                   'createDocument',
                   'updateDocument',
                   'requestSuggestions',
-                   'webSearch'
+                  'webSearch',
                 ],
           experimental_transform: smoothStream({ chunking: 'word' }),
           experimental_generateMessageId: generateUUID,
@@ -208,7 +208,7 @@ export async function POST(request: Request) {
               session,
               dataStream,
             }),
-            webSearch         
+            webSearch,         
           },
           onFinish: async ({ response }) => {
             if (session.user?.id) {
