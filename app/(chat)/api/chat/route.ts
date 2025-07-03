@@ -174,6 +174,7 @@ export async function POST(request: Request) {
           },
           search_parameters: {
             mode: 'auto',
+            return_citations: true
           },
           onFinish: async ({ response }) => {
             if (session.user?.id) {
@@ -215,7 +216,7 @@ export async function POST(request: Request) {
             isEnabled: isProductionEnvironment,
             functionId: 'stream-text',
           },
-        });
+        } as any);
 
         result.consumeStream();
 
