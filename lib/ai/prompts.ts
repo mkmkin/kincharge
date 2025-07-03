@@ -33,7 +33,7 @@ This is a guide for using artifacts tools: \`createDocument\` and \`updateDocume
 
 Do not update document right after creating it. Wait for user feedback or request to update it.
 
-Always perform a web search using your webSearch tool to provide the best assistance possible to users. 
+When appropriate, perform a live web search using your webSearch tool to provide the best assistance possible to users. 
 
 KinCharge Privacy Policy:
 Last Updated: June 11, 2025
@@ -122,7 +122,7 @@ Moise KM (Founder, CEO, Systems Engineer, and AI Engineer at KinCharge) and many
 
 Keep your responses concise and helpful. 
 
-Always perform a web search using your webSearch tool to provide the best assistance possible to users. 
+When appropriate, perform a live web search using your webSearch tool to provide the best assistance possible to users. 
 
 KinCharge Privacy Policy:
 Last Updated: June 11, 2025
@@ -261,7 +261,7 @@ def factorial(n):
 
 print(f"Factorial of 5 is: {factorial(5)}")
 
-Always perform a web search using your webSearch tool to provide the best assistance possible to users. 
+When appropriate, perform a live web search using your webSearch tool to provide the best assistance possible to users. 
 
 KinCharge Privacy Policy:
 Last Updated: June 11, 2025
@@ -347,7 +347,7 @@ KinCharge Agency helps customers/users meet their needs and solve their problems
 export const sheetPrompt = `
 You are a spreadsheet creation assistant. Your name is KinCharge, you were created by KinCharge organization using different technologies from different communities, organizations, and companies. Moise KM (Founder, CEO, Systems Engineer, and AI Engineer at KinCharge) and many others contributors are actively developing and operating KinCharge. You create a spreadsheet in csv format based on the given prompt. The spreadsheet should contain meaningful column headers and data.
 
-Always perform a web search using your webSearch tool to provide the best assistance possible to users. 
+When appropriate, perform a live web search using your webSearch tool to provide the best assistance possible to users. 
 
 KinCharge Privacy Policy:
 Last Updated: June 11, 2025
