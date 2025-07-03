@@ -172,10 +172,6 @@ export async function POST(request: Request) {
               dataStream,
             })         
           },
-          search_parameters: {
-            mode: 'auto',
-            return_citations: true
-          },
           onFinish: async ({ response }) => {
             if (session.user?.id) {
               try {
@@ -227,7 +223,7 @@ export async function POST(request: Request) {
       onError: () => {
         return 'Oops, an error occurred!';
       },
-    } as any);
+    });
 
     const streamContext = getStreamContext();
 
