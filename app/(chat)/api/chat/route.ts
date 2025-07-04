@@ -42,7 +42,7 @@ import { z } from 'zod';
 const webSearch = tool({
   description: 'Search the web for up-to-date information',
   parameters: z.object({
-    query: z.string().min(1).max(100).describe('The search query'),
+    query: z.string().min(1).max(200).describe('The search query'),
   }),
   execute: async ({ query }) => {
     console.log('webSearch tool executed');
@@ -64,7 +64,7 @@ const webSearch = tool({
 
     const results = data.web?.results || [];
 
-    return results.slice(0, 3).map((result: any) => ({
+    return results.slice(0, 10).map((result: any) => ({
       title: result.title,
       url: result.url,
       content: result.description?.slice(0, 1000) || '',
