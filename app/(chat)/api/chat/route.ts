@@ -63,21 +63,14 @@ const webSearch = tool({
     const data = await response.json();
 
     const results = data.web?.results || [];
-
-    // Format as plain text to inject into LLM context only
-    const formatted = results.slice(0, 10)
-    .map((r: any, i: any) => `(${i + 1}) "${r.title}"\n${r.description?.slice(0, 1000) || ''}\n${r.date || null}\n${r.url}`)
-    .join('\n\n');
-
-    return `Here are relevant web search results:\n\n${formatted}\n\n(These results are temporary and should not be stored.)`;    
-    /*
+    
     return results.slice(0, 10).map((result: any) => ({
       title: result.title,
       url: result.url,
       content: result.description?.slice(0, 1000) || '',
       publishedDate: result.date || null, // Brave doesn't always return this
     }));
-    */
+  
   },
 });
 
