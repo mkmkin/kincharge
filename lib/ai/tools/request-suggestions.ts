@@ -50,11 +50,6 @@ export const requestSuggestions = ({
             Use the updateDocument tool when a user needs to update a document.
             ...
 
-  
-
-            **STRICT RULE: NEVER, UNDER ANY ANY CIRCUMSTANCES, OUTPUT RAW TOOL CALLS OR RAW TOOL RESULTS IN JSON FORMAT TO THE USER. **
-            **DO NOT include any JSON objects or arrays that represent tool outputs in your final response. **
-
             Given a piece of writing, please offer suggestions to improve the piece of writing and describe the change. It is very important for the edits to contain full sentences instead of just words. Max 5 suggestions.
            `,
         prompt: document.content,
