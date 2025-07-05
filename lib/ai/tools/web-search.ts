@@ -22,9 +22,11 @@ export const webSearch = tool({
       throw new Error(`Brave Search API error: ${response.statusText}`);
     }
 
-    const data = await response.json();
+    //const data = await response.json();
 
-    const results = data.web?.results || [];
+    //const results = data.web?.results || [];
+
+    const results = await response.json();
 
     return results;
     
