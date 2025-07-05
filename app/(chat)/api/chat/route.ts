@@ -4,7 +4,6 @@ import {
   createDataStream,
   smoothStream,
   streamText,
-  tool
 } from 'ai';
 import { auth, type UserType } from '@/app/(auth)/auth';
 import { type RequestHints, systemPrompt } from '@/lib/ai/prompts';
@@ -24,6 +23,7 @@ import { createDocument } from '@/lib/ai/tools/create-document';
 import { updateDocument } from '@/lib/ai/tools/update-document';
 import { requestSuggestions } from '@/lib/ai/tools/request-suggestions';
 import { getWeather } from '@/lib/ai/tools/get-weather';
+import { webSearch } from '@/lib/ai/tools/web-search';
 import { isProductionEnvironment } from '@/lib/constants';
 import { myProvider } from '@/lib/ai/providers';
 import { entitlementsByUserType } from '@/lib/ai/entitlements';
@@ -37,42 +37,6 @@ import { after } from 'next/server';
 import type { Chat } from '@/lib/db/schema';
 import { differenceInSeconds } from 'date-fns';
 import { ChatSDKError } from '@/lib/errors';
-import { z } from 'zod';
-
-const webSearch = tool({
-  description: 'Search the web for relevant information',
-  parameters: z.object({
-    query: z.string().min(1).max(200).describe('The search query'),
-  }),
-  execute: async ({ query }) => {
-    console.log('webSearch tool executed');
-    const response = await fetch(
-      `https://api.search.brave.com/res/v1/web/search?q=${encodeURIComponent(query)}`,
-      {
-        headers: {
-          'Accept': 'application/json',
-          'X-Subscription-Token': process.env.BRAVE_API_KEY!,
-        },
-      }
-    );
-
-    if (!response.ok) {
-      throw new Error(`Brave Search API error: ${response.statusText}`);
-    }
-
-    const data = await response.json();
-
-    const results = data.web?.results || [];
-    
-    return results.slice(0, 10).map((result: any) => ({
-      title: result.title,
-      url: result.url,
-      content: result.description?.slice(0, 1000) || '',
-      publishedDate: result.date || null, // Brave doesn't always return this
-    }));
-  
-  },
-});
 
 export const maxDuration = 60;
 
