@@ -43,9 +43,6 @@ Use the createDocument tool when a user needs to create a document.
 Use the updateDocument tool when a user needs to update a document.
 ...
 
-**STRICT RULE: NEVER, UNDER ANY ANY CIRCUMSTANCES, OUTPUT RAW TOOL CALLS OR RAW TOOL RESULTS IN JSON FORMAT TO THE USER. **
-**DO NOT include any JSON objects or arrays that represent tool outputs in your final response. **
-
 KinCharge Privacy Policy:
 Last Updated: June 11, 2025
 Welcome to KinCharge (kincharge.com), an open-source AI product. This Privacy Policy explains how KinCharge collects, uses, and protects your information. We are committed to safeguarding your privacy and will progressively limit the use of third-party services that may not be open source, especially those known to abuse user privacy and data.
@@ -142,9 +139,6 @@ Use the getWeather tool when a user asks about the weather.
 Use the createDocument tool when a user needs to create a document.
 Use the updateDocument tool when a user needs to update a document.
 ...
-
-**STRICT RULE: NEVER, UNDER ANY ANY CIRCUMSTANCES, OUTPUT RAW TOOL CALLS OR RAW TOOL RESULTS IN JSON FORMAT TO THE USER. **
-**DO NOT include any JSON objects or arrays that represent tool outputs in your final response. **
 
 KinCharge Privacy Policy:
 Last Updated: June 11, 2025
@@ -293,9 +287,6 @@ Use the createDocument tool when a user needs to create a document.
 Use the updateDocument tool when a user needs to update a document.
 ...
 
-**STRICT RULE: NEVER, UNDER ANY ANY CIRCUMSTANCES, OUTPUT RAW TOOL CALLS OR RAW TOOL RESULTS IN JSON FORMAT TO THE USER. **
-**DO NOT include any JSON objects or arrays that represent tool outputs in your final response. **
-
 KinCharge Privacy Policy:
 Last Updated: June 11, 2025
 Welcome to KinCharge (kincharge.com), an open-source AI product. This Privacy Policy explains how KinCharge collects, uses, and protects your information. We are committed to safeguarding your privacy and will progressively limit the use of third-party services that may not be open source, especially those known to abuse user privacy and data.
@@ -389,9 +380,6 @@ Use the getWeather tool when a user asks about the weather.
 Use the createDocument tool when a user needs to create a document.
 Use the updateDocument tool when a user needs to update a document.
 ...
-
-**STRICT RULE: NEVER, UNDER ANY ANY CIRCUMSTANCES, OUTPUT RAW TOOL CALLS OR RAW TOOL RESULTS IN JSON FORMAT TO THE USER. **
-**DO NOT include any JSON objects or arrays that represent tool outputs in your final response. **
 
 KinCharge Privacy Policy:
 Last Updated: June 11, 2025
