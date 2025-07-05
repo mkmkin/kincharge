@@ -25,13 +25,17 @@ export const webSearch = tool({
     const data = await response.json();
 
     const results = data.web?.results || [];
+
+    return results;
     
+    /*
     return results.slice(0, 10).map((result: any) => ({
       title: result.title,
       url: result.url,
       content: result.description?.slice(0, 1000) || '',
       publishedDate: result.date || null, // Brave doesn't always return this
     }));
+    */
   
   },
 });
