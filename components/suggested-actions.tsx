@@ -19,14 +19,14 @@ function PureSuggestedActions({
 }: SuggestedActionsProps) {
   const suggestedActions = [
     {
-      title: 'How can AI',
+      title: 'How can an AI System',
       label: 'maximize my efficiency and satisfaction?',
-      action: 'How can AI maximize my efficiency and satisfaction?',
+      action: 'How can an AI System maximize my efficiency and satisfaction?',
     },
     {
-      title: 'How to integrate AI',
+      title: 'How to integrate an AI System',
       label: `at work and at home?`,
-      action: `How to integrate AI at work and at home?`,
+      action: `How to integrate an AI System at work and at home?`,
     },
     {
       title: 'Teach me how to',

@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import { useActionState, useEffect, useState } from 'react';
 import { toast } from '@/components/toast';
@@ -53,7 +54,14 @@ export default function Page() {
     <div className="flex h-dvh w-screen items-start pt-12 md:pt-0 md:items-center justify-center bg-background">
       <div className="w-full max-w-md overflow-hidden rounded-2xl flex flex-col gap-12">
         <div className="flex flex-col items-center justify-center gap-2 px-4 text-center sm:px-16">
-          <h3 className="text-xl font-semibold dark:text-zinc-50">Sign In</h3>
+          <Image
+              src={`/images/logo.png`}
+              alt={'KinCharge Logo Icon'}
+              width={70}
+              height={70}
+              className="rounded mx-0 px-0 content-center"
+            />
+          <h3 className="text-xl font-semibold dark:text-zinc-50">KinCharge Sign In</h3>
           <p className="text-sm text-gray-500 dark:text-zinc-400">
             Use your email and password to sign in
           </p>
@@ -64,11 +72,20 @@ export default function Page() {
             {"Don't have an account? "}
             <Link
               href="/register"
-              className="font-semibold text-gray-800 hover:underline dark:text-zinc-200"
+              className="font-semibold text-gray-800 underline dark:text-zinc-200"
             >
               Sign up
             </Link>
             {' for free.'}
+            <br />
+            {"Or"}
+            <br />
+            <Link
+              href="/"
+              className="font-semibold text-gray-800 underline dark:text-zinc-200"
+            >
+              Continue Using KinCharge as a Guest
+            </Link>
           </p>
         </AuthForm>
       </div>
