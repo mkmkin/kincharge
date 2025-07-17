@@ -19,31 +19,31 @@ function PureSuggestedActions({
 }: SuggestedActionsProps) {
   const suggestedActions = [
     {
-      title: 'How can an AI System',
-      label: 'maximize my efficiency and satisfaction?',
-      action: 'How can an AI System maximize my efficiency and satisfaction?',
+      title: 'Tell me',
+      label: 'more about AI Systems?',
+      action: 'Tell me more about AI Systems',
     },
     {
-      title: 'How to integrate an AI System',
-      label: `at work and at home?`,
-      action: `How to integrate an AI System at work and at home?`,
+      title: 'Help me',
+      label: `more about KinCharge`,
+      action: `Tell me more about KinCharge`,
     },
     {
-      title: 'Teach me how to',
-      label: `to code in the simplest way possible`,
-      action: `Teach me how to code in the simplest way possible`,
+      title: 'Teach me',
+      label: `how to code`,
+      action: `Teach me how to code`,
     },
     {
-      title: 'Help me book a flight',
-      label: 'from New York to Zanzibar',
-      action: 'Help me book a flight from New York to Zanzibar',
+      title: 'Help me',
+      label: 'book a flight',
+      action: 'Help me book a flight',
     },
   ];
 
   return (
     <div
       data-testid="suggested-actions"
-      className="grid sm:grid-cols-2 gap-2 w-full"
+      className="grid sm:grid-cols-2 gap-2 w-full hidden"
     >
       {suggestedActions.map((suggestedAction, index) => (
         <motion.div
@@ -64,7 +64,7 @@ function PureSuggestedActions({
                 content: suggestedAction.action,
               });
             }}
-            className="text-left border rounded-xl px-4 py-3.5 text-sm flex-1 gap-1 sm:flex-col w-full h-auto justify-start items-start"
+            className="text-left border rounded-xl px-4 py-3.5 text-sm flex-1 gap-1 sm:flex-col w-full h-auto justify-start items-start overflow-x-hidden"
           >
             <span className="font-medium">{suggestedAction.title}</span>
             <span className="text-muted-foreground">

@@ -167,7 +167,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
               <AlertDialogTitle className="text-xl">KinCharge Other Systems</AlertDialogTitle>
               <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p>
-                  { `KinCharge currently only provides an AI System, which is our main and flashship system. More systems will be added progressively.` }
+                  { `KinCharge currently only provides KinCharge AI System, which is our main and flashship system. More systems will be added progressively.` }
                   <Link href="https://offerings.kincharge.com" target="_blank" className="underline hidden">our other systems</Link>                
                 </p>
               </AlertDialogDescription>
@@ -194,6 +194,19 @@ export function AppSidebar({ user }: { user: User | undefined }) {
                 <p>
                   { `KinCharge's mission is to supercharge and maximize the world’s efficiency and satisfaction with artificial intelligence integrated with other technological systems, with organizational systems, and with natural systems and natural intelligence. In addition, KinCharge is committed to user/customer satisfaction, safety, security, and privacy, open source, open technologies and systems, technology and system maintenance and operation, innovation, technological progress, research, and education.` }                 
                 <Link href="https://offerings.kincharge.com" target="_blank" className="underline hidden">our other offerings</Link>                
+                </p>
+                <br />
+                <p>
+                  KinCharge AI System currently has the following Capabilities: Search the web and summarize the web search result for you. Analyze and summarize documents, texts, images, videos, audios, and code for you. Generate, create, and edit documents, texts, images, videos, audios, and code for you. 
+                  The first full version of KinCharge with more AI System capabilities and functionalities will be released on August 27th 2025 (advanced tasks, advanced assistance, advanced automation, and more…).
+                </p>
+                <p>
+                  <Link href="https://agency.kincharge.com" target="_blank" className="underline hidden">Go to KinCharge Agency</Link>
+                  <br className="hidden" />
+                  <a href={`tel:‪+19298776893‬`} className="underline"> 
+                  Contact Us For More Details
+                  </a> 
+                   <br />
                 </p>
               </AlertDialogDescription>
             </AlertDialogHeader>

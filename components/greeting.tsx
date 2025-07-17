@@ -42,7 +42,10 @@ export const Greeting = () => {
         transition={{ delay: 0.5 }}
         className="text-2xl font-semibold mx-auto justify-center content-center text-center"
       >
-        Hi, this is KinCharge, your AI System!
+        Hi, this is KinCharge <br /> Your AI System!
+
+        <br />
+        <br />
       </motion.div>
       <motion.div
         initial={{ opacity: 0, y: 10 }}
@@ -64,7 +67,7 @@ export const Greeting = () => {
               <AlertDialogTitle className="text-xl">KinCharge AI System Capabilities</AlertDialogTitle>
               <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p>
-                  KinCharge currently has the following Capabilities: Search the web and summarize the web search result for you. Analyze and summarize documents, texts, images, videos, audios, and code for you. Generate, create, and edit documents, texts, images, videos, audios, and code for you. 
+                  KinCharge AI System currently has the following Capabilities: Search the web and summarize the web search result for you. Analyze and summarize documents, texts, images, videos, audios, and code for you. Generate, create, and edit documents, texts, images, videos, audios, and code for you. 
                   The first full version of KinCharge with more AI System capabilities and functionalities will be released on August 27th 2025 (advanced tasks, advanced assistance, advanced automation, and more…).
                 </p>
                 <p>
@@ -88,9 +91,8 @@ export const Greeting = () => {
           </AlertDialogContent>
         </AlertDialog>
 
-        { " " }
-        What can I assist you with today?{ " " }  
-        (You can also get helped by a{ " " }
+        { " " }  
+        You can also get helped by a{ " " }
 
         <AlertDialog>
           <AlertDialogTrigger>
@@ -134,7 +136,7 @@ export const Greeting = () => {
               <AlertDialogTitle className="text-xl">KinCharge Other Systems</AlertDialogTitle>
               <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p>
-                  { `KinCharge currently only provides an AI System, which is our main and flashship system. More systems will be added progressively.` }
+                  { `KinCharge currently only provides KinCharge AI System, which is our main and flashship system. More systems will be added progressively.` }
                   <Link href="https://offerings.kincharge.com" target="_blank" className="underline hidden">our other offerings</Link>                
                 </p>
               </AlertDialogDescription>
@@ -152,7 +154,7 @@ export const Greeting = () => {
           <AlertDialogTrigger>
             <span className="underline">
               Our Agency
-            </span>)
+            </span>.
           </AlertDialogTrigger>
           <AlertDialogContent>
             <AlertDialogHeader>
@@ -186,6 +188,12 @@ export const Greeting = () => {
             </AlertDialogFooter>
           </AlertDialogContent>
         </AlertDialog>
+
+        <br />
+        <br />
+        <span className="">
+          What can I assist you with today?
+        </span>
 
       </motion.div>
     </div>
