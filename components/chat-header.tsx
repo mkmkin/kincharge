@@ -47,8 +47,9 @@ function PureChatHeader({
                 router.refresh();
               }}
             >
+              <span className="md:sr-only">{ " " }</span>
               <PlusIcon />
-              <span className="md:sr-only">New Assist</span>
+              <span className="md:sr-only">{ " " }</span>
             </Button>
           </TooltipTrigger>
           <TooltipContent>New Assist</TooltipContent>
