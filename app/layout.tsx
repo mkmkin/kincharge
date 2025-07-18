@@ -8,8 +8,8 @@ import { SessionProvider } from 'next-auth/react';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://kincharge.com'),
-  title: 'KinCharge: Your Open Source AI Assistant',
-  description: 'KinCharge is an Open Source AI Assistant the helps you supercharge and maximize your efficiency and satisfaction.',
+  title: 'KinCharge: Your Open Source AI System',
+  description: 'KinCharge is an Open Source AI System the helps you supercharge and maximize your efficiency and satisfaction.',
 };
 
 export const viewport = {
