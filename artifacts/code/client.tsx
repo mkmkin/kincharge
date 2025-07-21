@@ -113,7 +113,7 @@ export const codeArtifact = new Artifact<'code', Metadata>({
   },
   actions: [
     {
-      icon: <PlayIcon size={18} />,
+      icon: <PlayIcon size={18}/>,
       label: 'Run',
       description: 'Execute code',
       onClick: async ({ content, setMetadata }) => {
