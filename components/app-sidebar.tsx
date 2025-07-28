@@ -136,7 +136,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
                   <a href={`tel:‪+19298776893‬`} className="underline"> 
                   contact us
                   </a>{ " " } about any of the following services.
-                  The main services we provide are: 1) Artificial Intelligence Integration with Other Systems (Technological, Organizational, Natural, and Natural Intelligence); 2) All Technical/Technology Works and Services; 3) Recruiting and Staffing; 4) Training and Education. We also provide the following extra services: 1) Sales and Purchases; 2) Rentals; 3) Bookings; 4) Visas; 5) Currency Exchange; 6) Money Transfer; 7) Refills/Recharges; 8) Bills Payments.
+                  The main services we provide are: 1) Artificial Intelligence Systems Integration with Other Technological Systems, Organizational Systems, Natural Systems, and Natural Intelligence Systems; 2) All Technical/Technology Works and Services; 3) Recruiting and Staffing; 4) Training and Education. We also provide the following extra services: 1) Sales and Purchases; 2) Rentals; 3) Bookings; 4) Visas; 5) Currency Exchange; 6) Money Transfer; 7) Refills/Recharges; 8) Bills Payments.
                   </p>
                 <p>
                   <Link href="https://agency.kincharge.com" target="_blank" className="underline hidden">Go to KinCharge Agency</Link>
@@ -193,13 +193,13 @@ export function AppSidebar({ user }: { user: User | undefined }) {
               <AlertDialogTitle className="text-xl">About KinCharge</AlertDialogTitle>
               <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p>
-                  { `KinCharge's mission is to supercharge and maximize the world’s efficiency and satisfaction with artificial intelligence integrated with other systems (technological, organizational, natural, and natural intelligence). In addition, KinCharge is committed to user/customer satisfaction, safety, security, and privacy, open source, open technologies and systems, technologies and systems engineering, development, operation, and maintenance, technological progress, research, and education.` }                 
+                  { `KinCharge's mission is to supercharge and maximize the world’s efficiency and satisfaction with artificial intelligence systems integrated with other technological systems, organizational systems, natural systems, and natural intelligence systems. In addition, KinCharge is committed to user/customer satisfaction, safety, security, and privacy, open source, open technologies and systems, sustainability(recycling, renewable energy…), technologies and systems engineering, development, operation, and maintenance, technological progress, research, and education.` }                 
                 <Link href="https://offerings.kincharge.com" target="_blank" className="underline hidden">our other offerings</Link>                
                 </p>
                 <br />
                 <p>
                   KinCharge AI System currently has the following Capabilities: Search the web and summarize the web search result for you. Analyze and summarize documents, texts, images, videos, audios, and code for you. Generate, create, and edit documents, texts, and code for you (image, video, and audio generation will be added soon). 
-                  The first full version of KinCharge with more AI System capabilities and functionalities will be released on August 27th 2025 (advanced tasks, advanced assistance, advanced automation, and more…).
+                  The first full version of KinCharge with more AI System capabilities and functionalities will be released on August 27th 2025 (advanced tasks, advanced assistance, advanced automation, full encryption, and more…).
                 </p>
                 <p>
                   <Link href="https://agency.kincharge.com" target="_blank" className="underline hidden">Go to KinCharge Agency</Link>
@@ -257,7 +257,7 @@ You have full control over your data:
 6. Data Security
 We implement robust security measures to protect your data:
  * Authentication: Secure user authentication processes.
- * Encryption: Your assistance history can be encrypted on demand by you, and we utilize encryption where appropriate to protect data in transit and at rest.
+ * Encryption: For now your assistance history can be encrypted on demand by you, but we utilize encryption where appropriate to protect data in transit and at rest. Full encryption will be added soon.
 7. Cookies and Tracking Technologies
 KinCharge does not use cookies or any similar tracking technologies.
 8. Children's Privacy

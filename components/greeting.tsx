@@ -68,7 +68,7 @@ export const Greeting = () => {
               <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p>
                   KinCharge AI System currently has the following Capabilities: Search the web and summarize the web search result for you. Analyze and summarize documents, texts, images, videos, audios, and code for you. Generate, create, and edit documents, texts, and code for you (image, video, and audio generation will be added soon). 
-                  The first full version of KinCharge with more AI System capabilities and functionalities will be released on August 27th 2025 (advanced tasks, advanced assistance, advanced automation, and more…).
+                  The first full version of KinCharge with more AI System capabilities and functionalities will be released on August 27th 2025 (advanced tasks, advanced assistance, advanced automation, full encryption, and more…).
                 </p>
                 <p>
                   <Link href="https://agency.kincharge.com" target="_blank" className="underline hidden">Go to KinCharge Agency</Link>
@@ -166,7 +166,7 @@ export const Greeting = () => {
                   <a href={`tel:‪+19298776893‬`} className="underline"> 
                   contact us
                   </a>{ " " } about any of the following services.
-                  The main services we provide are: 1) Artificial Intelligence Integration with Other Systems (Technological, Organizational, Natural, and Natural Intelligence); 2) All Technical/Technology Works and Services; 3) Recruiting and Staffing; 4) Training and Education. We also provide the following extra services: 1) Sales and Purchases; 2) Rentals; 3) Bookings; 4) Visas; 5) Currency Exchange; 6) Money Transfer; 7) Refills/Recharges; 8) Bills Payments.
+                  The main services we provide are: 1) Artificial Intelligence Systems Integration with Other Technological Systems, Organizational Systems, Natural Systems, and Natural Intelligence Systems; 2) All Technical/Technology Works and Services; 3) Recruiting and Staffing; 4) Training and Education. We also provide the following extra services: 1) Sales and Purchases; 2) Rentals; 3) Bookings; 4) Visas; 5) Currency Exchange; 6) Money Transfer; 7) Refills/Recharges; 8) Bills Payments.
                 </p>
                 <p>
                   <Link href="https://agency.kincharge.com" target="_blank" className="underline hidden">Go to KinCharge Agency</Link>
