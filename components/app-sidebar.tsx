@@ -136,7 +136,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
                   <a href={`tel:‪+19298776893‬`} className="underline"> 
                   contact us
                   </a>{ " " } about any of the following services.
-                  The main services we provide are: 1) Artificial Intelligence Systems Integration with Other Technological Systems, Organizational Systems, Natural Systems, and Natural Intelligence Systems; 2) All Technical/Technology Works and Services; 3) Recruiting and Staffing; 4) Training and Education. We also provide the following extra services: 1) Sales and Purchases; 2) Rentals; 3) Bookings; 4) Visas; 5) Currency Exchange; 6) Money Transfer; 7) Refills/Recharges; 8) Bills Payments.
+                  The main services we provide are: 1) Artificial Intelligence Systems Integration with Other Technological Systems, Organizational Systems, Natural Systems, and Intelligent Beings; 2) All Technical/Technology Works and Services; 3) Recruiting and Staffing; 4) Training and Education. We also provide the following extra services: 1) Sales and Purchases; 2) Rentals; 3) Bookings; 4) Visas; 5) Currency Exchange; 6) Money Transfer; 7) Refills/Recharges; 8) Bills Payments.
                   </p>
                 <p>
                   <Link href="https://agency.kincharge.com" target="_blank" className="underline hidden">Go to KinCharge Agency</Link>
@@ -193,7 +193,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
               <AlertDialogTitle className="text-xl">About KinCharge</AlertDialogTitle>
               <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p>
-                  { `KinCharge's mission is to supercharge and maximize the world’s efficiency and satisfaction with artificial intelligence systems integrated with other technological systems, organizational systems, natural systems, and natural intelligence systems. In addition, KinCharge is committed to user/customer satisfaction, safety, security, and privacy, open source, open technologies and systems, sustainability(recycling, renewable energy…), technologies and systems engineering, development, operation, and maintenance, technological progress, research, and education.` }                 
+                  { `KinCharge's mission is to supercharge and maximize the world’s efficiency and satisfaction with artificial intelligence systems integrated with other technological systems, organizational systems, natural systems, and intelligent beings. In addition, KinCharge is committed to user/customer satisfaction, safety, security, and privacy, open source, open technologies and systems, sustainability(recycling, renewable energy…), technologies and systems engineering, development, operation, and maintenance, technological progress, research, and education.` }                 
                 <Link href="https://offerings.kincharge.com" target="_blank" className="underline hidden">our other offerings</Link>                
                 </p>
                 <br />
