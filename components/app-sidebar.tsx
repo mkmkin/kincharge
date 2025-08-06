@@ -136,7 +136,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
                   <a href={`tel:‪+19298776893‬`} className="underline"> 
                   contact us
                   </a>{ " " } about any of the following services.
-                  The main services we provide are: 1) Artificial Intelligence Systems Integration with Other Technological Systems, Organizational Systems, Natural Systems, and Intelligent Beings; 2) All Technical/Technology Works and Services; 3) Recruiting and Staffing; 4) Training and Education. We also provide the following extra services: 1) Sales and Purchases; 2) Rentals; 3) Bookings; 4) Visas; 5) Currency Exchange; 6) Money Transfer; 7) Refills/Recharges; 8) Bills Payments.
+                  The main services we provide are: 1) Artificial Intelligence Systems Integration and Operation; 2) All Technical/Technology Works and Services in Collaboration with Our Partners. We also provide the following extra services: 1) Training and Education; 2) Recruiting and Staffing; 3) Sales and Purchases; 4) Rentals; 5) Bookings; 6) Visas; 7) Currency Exchange; 8) Money Transfer; 9) Refills/Recharges; 10) Bills Payment.
                   </p>
                 <p>
                   <Link href="https://agency.kincharge.com" target="_blank" className="underline hidden">Go to KinCharge Agency</Link>
@@ -199,7 +199,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
                 <br />
                 <p>
                   KinCharge AI System currently has the following Capabilities: Search the web and summarize the web search result for you. Analyze and summarize documents, texts, images, videos, audios, and code for you. Generate, create, and edit documents, texts, and code for you (image, video, and audio generation will be added soon). 
-                  The first full version of KinCharge with more AI System capabilities and functionalities will be released on August 27th 2025 (advanced tasks, advanced assistance, advanced automation, full encryption, and more…).
+                  The first full version of KinCharge with more AI System capabilities and functionalities will be released on August 31st 2025 (advanced tasks, advanced assistance, advanced automation, full encryption, and more…).
                 </p>
                 <p>
                   <Link href="https://agency.kincharge.com" target="_blank" className="underline hidden">Go to KinCharge Agency</Link>
