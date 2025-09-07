@@ -3,8 +3,8 @@
 </a>
 
 <p align="center">
-    KinCharge is a free, open-source AI System that helps you supercharge and maximize your efficiency and satisfaction.
-    It is developed and operated using the following technologies and systems, which are mostly open source: NextJS, TailwindCSS, ShadCNUI, RadixUI, Vercel AI SDK, Mistrall, LocalAI, FireCrawl, NodeJS, Supabase, PostgreSQL, Vercel Cloud, Git, Github, Docker, Docker Hub, Linux, Ubuntu, and more. Most of these open source technologies and systems are being customized and improved for more capabilities, more functionalities, and better adoption and integration.
+    KinCharge is a free, open-source AI System that helps you supercharge and maximize your efficiency, satisfaction, and wellness.
+    It is developed and operated using the following technologies and systems, which are mostly open source: NextJS, TailwindCSS, ShadCNUI, RadixUI, Vercel AI SDK, Mistrall, LocalAI, FireCrawl, NodeJS, Supabase, PostgreSQL, Vercel Cloud, Git, Github, Docker, Docker Hub, Linux, Ubuntu, LibreBoot, Cloud Servers, Local Servers, and more. Most of these open source technologies and systems are being customized and improved for more capabilities, more functionalities, and better adoption and integration.
 </p>
 
 ## Running locally
