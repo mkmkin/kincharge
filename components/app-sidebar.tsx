@@ -136,7 +136,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
                   <a href={`tel:‪+19298776893‬`} className="underline"> 
                   contact us
                   </a>{ " " } about any of the following services.
-                  The main services we provide are: 1) Artificial Intelligent Systems; 2) Information Technology, Electronics, and Telecommunications; 3) Mechatronics and Mechanics; 4) Construction, Electricity, Water, Plumbing, Decoration, Equipment, Doors, Glass, Windows, AC, Elevators...; 5) Manufacturing, Customization, Repurposing, Upgrading; 6) Waste Collection, Disposal, Treatment, and Recycling; 7) Agriculture, Mining, and more... We also provide the following extra services: 1) Training and Education; 2) Recruiting and Staffing; 3) Fitness and Wellness; 4) Sales and Purchases; 5) Rentals and Bookings; 6) Passports and Visas ; 7) Currency Exchange and Money Transfer; 8) Refills/Recharges and Bills. Users can contact us for more details at: ‪+1 (929) 877‑6893‬
+                  The main services we provide are: 1) Artificial Intelligent Systems; 2) Information Technology, Electronics, and Telecommunications; 3) Mechatronics and Mechanics; 4) Construction, Electricity, Water, Plumbing, Decoration, Equipment, Doors, Glass, Windows, AC, Elevators...; 5) Manufacturing, Customization, Repurposing, Upgrading; 6) Waste Collection, Disposal, Treatment, and Recycling; 7) Agriculture, Mining, and more... We also provide the following extra services: 1) Training and Education; 2) Recruiting and Staffing; 3) Fitness and Wellness; 4) Sales and Purchases; 5) Rentals and Bookings; 6) Passports and Visas ; 7) Currency Exchange and Money Transfer; 8) Refills/Recharges and Bills.‬
                 </p>
                 <p>
                   <Link href="https://agency.kincharge.com" target="_blank" className="underline hidden">Go to KinCharge Agency</Link>
@@ -198,7 +198,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
                 </p>
                 <br />
                 <p>
-                  KinCharge AI System currently has the following Capabilities: Search the web and summarize the web search result for you. Analyze and summarize documents, texts, and code for you (image, video, and audio generation, creation, and editing will be added soon). The first full version of KinCharge with more AI System capabilities and functionalities will be fully released by November 2025 (advanced tasks, advanced assistance, advanced automation, full encryption, and more…). You can contact us for more details at: ‪+1 (929) 877‑6893‬</p>
+                  KinCharge AI System currently has the following Capabilities: Search the web and summarize the web search result for you. Analyze and summarize documents, texts, and code for you (image, video, and audio generation, creation, and editing will be added soon). The first full version of KinCharge with more AI System capabilities and functionalities will be fully released by November 2025 (advanced tasks, advanced assistance, advanced automation, full encryption, and more…).‬</p>
                 <p>
                   <Link href="https://agency.kincharge.com" target="_blank" className="underline hidden">Go to KinCharge Agency</Link>
                   <br className="hidden" />
