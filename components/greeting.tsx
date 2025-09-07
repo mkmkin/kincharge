@@ -54,7 +54,7 @@ export const Greeting = () => {
         transition={{ delay: 0.6 }}
         className="text-xl text-zinc-500 mx-auto justify-center content-center text-center"
       >
-        I help you maximize and supercharge your efficiency and satisfaction with the best of{ " " }
+        I help you maximize and supercharge your efficiency, satisfaction, and wellness with the best of{ " " }
         
         <AlertDialog>
           <AlertDialogTrigger>
