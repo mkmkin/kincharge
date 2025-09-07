@@ -123,7 +123,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
          <AlertDialog>
           <AlertDialogTrigger>
             <span className="underline">
-              Our Agency 
+              Our Agencies
             </span>
           </AlertDialogTrigger>
           <AlertDialogContent>
@@ -131,7 +131,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
               <AlertDialogTitle className="text-xl">KinCharge Agency</AlertDialogTitle>
               <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p>
-                  KinCharge Agency helps you meet your needs and solve your problems with useful services provided by us in collaboration with our partners and our community.
+                  KinCharge Agencies help you meet your needs and solve your problems with useful services provided by us in collaboration with our partners and our community.
                   You can{ " " }
                   <a href={`tel:‪+19298776893‬`} className="underline"> 
                   contact us
