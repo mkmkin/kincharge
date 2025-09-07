@@ -90,6 +90,7 @@ export const Greeting = () => {
         </AlertDialog>
 
         { " " }  
+        <br />
         You can also get helped by a{ " " }
 
         <AlertDialog>
