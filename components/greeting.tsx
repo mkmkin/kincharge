@@ -67,9 +67,7 @@ export const Greeting = () => {
               <AlertDialogTitle className="text-xl">KinCharge AI System Capabilities</AlertDialogTitle>
               <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p>
-                  KinCharge AI System currently has the following Capabilities: Search the web and summarize the web search result for you. Analyze and summarize documents, texts, images, videos, audios, and code for you. Generate, create, and edit documents, texts, and code for you (image, video, and audio generation will be added soon). 
-                  The first full version of KinCharge with more AI System capabilities and functionalities will be released on August 31st 2025 (advanced tasks, advanced assistance, advanced automation, full encryption, and more…).
-                </p>
+                  KinCharge AI System currently has the following Capabilities: Search the web and summarize the web search result for you. Analyze and summarize documents, texts, and code for you (image, video, and audio generation, creation, and editing will be added soon). The first full version of KinCharge with more AI System capabilities and functionalities will be fully released by November 2025 (advanced tasks, advanced assistance, advanced automation, full encryption, and more…).‬</p>
                 <p>
                   <Link href="https://agency.kincharge.com" target="_blank" className="underline hidden">Go to KinCharge Agency</Link>
                   <br className="hidden" />
@@ -105,7 +103,7 @@ export const Greeting = () => {
               <AlertDialogTitle className="text-xl">Custom AI System</AlertDialogTitle>
               <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p >
-                  Order and get a Custom Artificial Intelligence System with all KinCharge AI System Capabilities and Functionalities: Assistance, Automation, Conversation, Text Generation, Text Analysis, Data Analysis, Document Analysis, Document/File Creation and Editing, Image and Video Analysis, Audio Analysis, Audio and Video Transcription, Image and Video Generation, Audio Generation, and more…
+                  Order and get a Custom Artificial Intelligent System with all KinCharge AI System Capabilities and Functionalities: Advanced Assistance, Advanced Automation, Conversation, Text Generation, Text Analysis, Data Analysis, Document Analysis, Document/File Creation and Editing, Image and Video Analysis, Audio Analysis, Audio and Video Transcription, Image and Video Generation, Audio Generation, and more…
                 </p>
                 <p>
                   <a href={`tel:‪+19298776893‬`} className="underline"> 
@@ -161,13 +159,12 @@ export const Greeting = () => {
               <AlertDialogTitle className="text-xl">KinCharge Agency</AlertDialogTitle>
               <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p>
-                  KinCharge Agency helps you meet your needs and solve your problems with useful services provided by us and by our partners. 
+                  KinCharge Agency helps you meet your needs and solve your problems with useful services provided by us in collaboration with our partners and our community. 
                   You can{ " " }
                   <a href={`tel:‪+19298776893‬`} className="underline"> 
                   contact us
                   </a>{ " " } about any of the following services.
-                  The main services we provide are: 1) Artificial Intelligence Systems Integration and Operation; 2) All Technical/Technology Works and Services in Collaboration with Our Partners. We also provide the following extra services: 1) Training and Education; 2) Recruiting and Staffing; 3) Sales and Purchases; 4) Rentals; 5) Bookings; 6) Visas; 7) Currency Exchange; 8) Money Transfer; 9) Refills/Recharges; 10) Bills Payment.
-                </p>
+                  The main services we provide are: 1) Artificial Intelligent Systems; 2) Information Technology, Electronics, and Telecommunications; 3) Mechatronics and Mechanics; 4) Construction, Electricity, Water, Plumbing, Decoration, Equipment, Doors, Glass, Windows, AC, Elevators...; 5) Manufacturing, Customization, Repurposing, Upgrading; 6) Waste Collection, Disposal, Treatment, and Recycling; 7) Agriculture, Mining, and more... We also provide the following extra services: 1) Training and Education; 2) Recruiting and Staffing; 3) Fitness and Wellness; 4) Sales and Purchases; 5) Rentals and Bookings; 6) Passports and Visas ; 7) Currency Exchange and Money Transfer; 8) Refills/Recharges and Bills. </p>
                 <p>
                   <Link href="https://agency.kincharge.com" target="_blank" className="underline hidden">Go to KinCharge Agency</Link>
                   <br className="hidden" />
