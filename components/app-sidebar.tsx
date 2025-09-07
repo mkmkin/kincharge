@@ -128,7 +128,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
           </AlertDialogTrigger>
           <AlertDialogContent>
             <AlertDialogHeader>
-              <AlertDialogTitle className="text-xl">KinCharge Agency</AlertDialogTitle>
+              <AlertDialogTitle className="text-xl">KinCharge Agencies</AlertDialogTitle>
               <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p>
                   KinCharge Agencies help you meet your needs and solve your problems with useful services provided by us in collaboration with our partners and our community.
