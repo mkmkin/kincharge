@@ -168,7 +168,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
               <AlertDialogTitle className="text-xl">KinCharge Other Systems</AlertDialogTitle>
               <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p>
-                  { `KinCharge currently provides the following systems: AI System, and AI System R. More systems will be added progressively.` }
+                  { `KinCharge currently provides the following systems: AI System (Application, Cloud Server, and Local Server), and AI System R (Application, Cloud Server, and Local Server). More systems will be added progressively.` }
                   <Link href="https://offerings.kincharge.com" target="_blank" className="underline hidden">our other systems</Link>                
                 </p>
               </AlertDialogDescription>
