@@ -67,8 +67,7 @@ export const Greeting = () => {
               <AlertDialogTitle className="text-xl">KinCharge AI System Capabilities</AlertDialogTitle>
               <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p>
-                  KinCharge AI System currently has the following Capabilities: Search the web and summarize the web search result for you. Analyze and summarize documents, texts, and code for you (image, video, and audio generation, creation, and editing will be added soon). The first full version of KinCharge with more AI System capabilities and functionalities will be fully released by November 2025 (advanced tasks, advanced assistance, advanced automation, full encryption, and more…).‬</p>
-                <p>
+                  KinCharge AI Systems currently have the following Capabilities: Search the web and summarize the web search result for you. Analyze and summarize documents, texts, code, and images, for you. Generate, create, and edit documents, texts, and code for you (image, video, and audio generation will be added soon). The first full version of KinCharge with more AI System capabilities and functionalities will be fully released by November 2025 (advanced tasks, advanced assistance, advanced automation, full encryption, and more…).<p>
                   <Link href="https://agency.kincharge.com" target="_blank" className="underline hidden">Go to KinCharge Agency</Link>
                   <br className="hidden" />
                   <a href={`tel:‪+19298776893‬`} className="underline"> 
