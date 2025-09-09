@@ -72,7 +72,7 @@ export const Greeting = () => {
                   <br />
                   { `KinCharge's mission is to supercharge and maximize the world’s efficiency, satisfaction, and wellness with artificial intelligent systems integrated with other technological systems, organizational systems, natural systems, and intelligent beings. KinCharge is committed to user/customer satisfaction, efficiency, wellness, safety, security, and privacy, open source, open technology and systems, community, sustainability(recycling, renewable energy…), technology and systems engineering, development, operation, and maintenance, technological progress, research, and education.` }                 
                   <Link href="https://agency.kincharge.com" target="_blank" className="underline hidden">Go to KinCharge Agency</Link>
-                  <br className="hidden" />
+                  <br />
                   <a href={`tel:‪+19298776893‬`} className="underline"> 
                   Contact Us For More Details
                   </a> 
