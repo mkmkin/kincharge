@@ -193,7 +193,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
               <AlertDialogTitle className="text-xl">About KinCharge</AlertDialogTitle>
               <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p>
-                  { `KinCharge's mission is to supercharge and maximize the world’s efficiency, satisfaction, and wellness with artificial intelligent systems integrated with other technological systems, organizational systems, natural systems, and intelligent beings. KinCharge is committed to user/customer satisfaction, efficiency, wellness, safety, security, and privacy, open source, open technology and systems, sustainability(recycling, renewable energy…), technology and systems engineering, development, operation, and maintenance, technological progress, research, and education.` }                 
+                  { `KinCharge's mission is to supercharge and maximize the world’s efficiency, satisfaction, and wellness with artificial intelligent systems integrated with other technological systems, organizational systems, natural systems, and intelligent beings. KinCharge is committed to user/customer satisfaction, efficiency, wellness, safety, security, and privacy, open source, open technology and systems, community, sustainability(recycling, renewable energy…), technology and systems engineering, development, operation, and maintenance, technological progress, research, and education.` }                 
                 <Link href="https://offerings.kincharge.com" target="_blank" className="underline hidden">our other offerings</Link>                
                 </p>
                 <br />
