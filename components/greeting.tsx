@@ -68,6 +68,9 @@ export const Greeting = () => {
               <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p>
                   KinCharge AI System (Application, Cloud Server, Local Server) currently has the following Capabilities: Search the web and summarize the web search result for you. Analyze and summarize documents, texts, code, and images, for you. Generate, create, and edit documents, texts, and code for you (image, video, and audio generation will be added soon). The first full version of KinCharge with more AI System capabilities and functionalities will be fully released by November 2025 (advanced tasks, advanced assistance, advanced automation, full encryption, and more…).
+                  <br />
+                  <br />
+                  { `KinCharge's mission is to supercharge and maximize the world’s efficiency, satisfaction, and wellness with artificial intelligent systems integrated with other technological systems, organizational systems, natural systems, and intelligent beings. KinCharge is committed to user/customer satisfaction, efficiency, wellness, safety, security, and privacy, open source, open technology and systems, community, sustainability(recycling, renewable energy…), technology and systems engineering, development, operation, and maintenance, technological progress, research, and education.` }                 
                   <Link href="https://agency.kincharge.com" target="_blank" className="underline hidden">Go to KinCharge Agency</Link>
                   <br className="hidden" />
                   <a href={`tel:‪+19298776893‬`} className="underline"> 
