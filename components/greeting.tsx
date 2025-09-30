@@ -58,7 +58,7 @@ export const Greeting = () => {
         <AlertDialog>
           <AlertDialogTrigger>
             <span className="underline">
-              My Capabilities
+              Capabilities
             </span>
           </AlertDialogTrigger>
           <AlertDialogContent>
