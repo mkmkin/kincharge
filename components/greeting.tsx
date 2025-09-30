@@ -57,7 +57,7 @@ export const Greeting = () => {
         
         <AlertDialog>
           <AlertDialogTrigger>
-            <span className="border-1 border-solid border-gray-200 rounded-sm">
+            <span className="border border-1 border-solid border-gray-200 dark:border-zinc-700 rounded-sm">
               My Capabilities
             </span>
           </AlertDialogTrigger>
