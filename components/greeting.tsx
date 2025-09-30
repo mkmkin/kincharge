@@ -42,7 +42,7 @@ export const Greeting = () => {
         transition={{ delay: 0.5 }}
         className="text-2xl font-semibold mx-auto justify-center content-center text-center"
       >
-        Hi, this is KinCharge <br /> AI Assistant
+        Hi, this is KinCharge <br /> AI Assistant!
 
         <br />
         <br />
@@ -57,7 +57,7 @@ export const Greeting = () => {
         
         <AlertDialog>
           <AlertDialogTrigger>
-            <span className="border border-1 border-solid border-gray-200 dark:border-zinc-700 rounded-sm">
+            <span className="underline border border-solid border-gray-200 dark:border-zinc-700 rounded-sm">
               My Capabilities
             </span>
           </AlertDialogTrigger>
@@ -92,7 +92,7 @@ KinCharge is committed to user/customer satisfaction, efficiency, wellness, safe
           </AlertDialogContent>
         </AlertDialog>
 
-        {" "}  
+        {" | "}  
 
         <AlertDialog>
           <AlertDialogTrigger>
@@ -123,7 +123,7 @@ KinCharge is committed to user/customer satisfaction, efficiency, wellness, safe
           </AlertDialogContent>
         </AlertDialog>
         
-        {" "}
+        {" | "}
 
         <AlertDialog>
           <AlertDialogTrigger>
@@ -148,7 +148,7 @@ KinCharge is committed to user/customer satisfaction, efficiency, wellness, safe
           </AlertDialogContent>
         </AlertDialog>
 
-        {" "}
+        {" | "}
 
         <AlertDialog>
           <AlertDialogTrigger>
@@ -220,7 +220,7 @@ KinCharge is committed to user/customer satisfaction, efficiency, wellness, safe
           </AlertDialogContent>
         </AlertDialog>
 
-        {" "}
+        {" | "}
 
          <AlertDialog>
           <AlertDialogTrigger>
