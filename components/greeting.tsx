@@ -54,7 +54,6 @@ export const Greeting = () => {
         transition={{ delay: 0.6 }}
         className="text-xl text-zinc-500 mx-auto justify-center content-center text-center"
       >
-        I help you maximize and supercharge your efficiency, satisfaction, and wellness with { " " }
         
         <AlertDialog>
           <AlertDialogTrigger>
@@ -93,8 +92,7 @@ KinCharge is committed to user/customer satisfaction, efficiency, wellness, safe
           </AlertDialogContent>
         </AlertDialog>
 
-        { " " }  
-        You can also get helped by a{ " " }
+        { " | " }  
 
         <AlertDialog>
           <AlertDialogTrigger>
@@ -125,7 +123,7 @@ KinCharge is committed to user/customer satisfaction, efficiency, wellness, safe
           </AlertDialogContent>
         </AlertDialog>
         
-        { ", " }by{ " " }
+        { " | " }
 
         <AlertDialog>
           <AlertDialogTrigger>
@@ -150,7 +148,7 @@ KinCharge is committed to user/customer satisfaction, efficiency, wellness, safe
           </AlertDialogContent>
         </AlertDialog>
 
-        { ", " }and by{ " " }
+        { " | " }
 
         <AlertDialog>
           <AlertDialogTrigger>
