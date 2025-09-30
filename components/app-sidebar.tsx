@@ -89,17 +89,17 @@ export function AppSidebar({ user }: { user: User | undefined }) {
          <AlertDialog>
           <AlertDialogTrigger>
             <span className="underline">
-              Custom AI System 
+              Custom AI Assistant
             </span>
           </AlertDialogTrigger>
           <AlertDialogContent>
             <AlertDialogHeader>
-              <AlertDialogTitle className="text-xl">Custom AI System</AlertDialogTitle>
+              <AlertDialogTitle className="text-xl">Custom AI Assistant</AlertDialogTitle>
               <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p >
                   
                   { `
-                      Order and get a Custom Artificial Intelligent System (Application, Cloud Server, Local Server) with all KinCharge AI System Capabilities and Functionalities: Advanced Assistance, Advanced Automation, Conversation, Text Generation, Text Analysis, Data Analysis, Document Analysis, Document/File Creation and Editing, Image and Video Analysis, Audio Analysis, Audio and Video Transcription, Image and Video Generation, Audio Generation, and more…
+                      Order and get a Custom Artificial Intelligent Assistant (Application, Cloud Server, Local Server) with all KinCharge AI Assistance Capabilities and Functionalities: Advanced Assistance, Advanced Automation, Conversation, Text Generation, Text Analysis, Data Analysis, Document Analysis, Document/File Creation and Editing, Image and Video Analysis, Audio Analysis, Audio and Video Transcription, Image and Video Generation, Audio Generation, and more…
                     ` }
                 </p>
                 <p>
@@ -123,20 +123,53 @@ export function AppSidebar({ user }: { user: User | undefined }) {
          <AlertDialog>
           <AlertDialogTrigger>
             <span className="underline">
-              Our Agencies
+              Our Community
             </span>
           </AlertDialogTrigger>
           <AlertDialogContent>
             <AlertDialogHeader>
-              <AlertDialogTitle className="text-xl">KinCharge Agencies</AlertDialogTitle>
+              <AlertDialogTitle className="text-xl">KinCharge Community</AlertDialogTitle>
               <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p>
-                  KinCharge Agencies help you meet your needs and solve your problems with useful services provided by us in collaboration with our partners and our community.
+                  KinCharge community locations provide technology products and services that help the community fulfill their needs, in collaboration with our partners.
                   You can{ " " }
                   <a href={`tel:‪+19298776893‬`} className="underline"> 
                   contact us
-                  </a>{ " " } about any of the following services.
-                  The main services we provide are: 1) Artificial Intelligent Systems; 2) Information Technology, Electronics, and Telecommunications; 3) Mechatronics and Mechanics; 4) Construction, Electricity, Water, Plumbing, Decoration, Equipment, Doors, Glass, Windows, AC, Elevators...; 5) Manufacturing, Customization, Repurposing, Upgrading; 6) Waste Collection, Disposal, Treatment, and Recycling; 7) Agriculture, Mining, and more... We also provide the following extra services: 1) Training and Education; 2) Recruiting and Staffing; 3) Fitness and Wellness; 4) Sales and Purchases; 5) Rentals and Bookings; 6) Passports and Visas ; 7) Currency Exchange and Money Transfer; 8) Refills/Recharges and Bills.‬
+                  </a>{ " " } about any of the following products and services.
+                  The main product and services we provide are: 1) Artificial Intelligence 
+
+2) Systems Engineering 
+
+3) Information Technology, Informatics, Electronics, and Telecommunications
+
+4) Mechatronics and Mechanics
+
+5) Construction, Prefab, Self-Sufficiency, Electricity, Plumbing, Equipment…
+
+6) Manufacturing and Customization 
+
+7) Waste Collection, Treatment, Disposal and Recycling
+
+8) Ecology, Open Source
+
+8) Agriculture, Mining, and more…
+
+ We also provide the following extra products and services: 1) Training and Education
+
+2) Recruiting and Staffing
+
+3) Fitness, Wellness, Efficiency, Satisfaction
+
+4) Security, Safety, and Privacy 
+
+5) Sales and Purchases
+
+6) Rentals and Bookings
+
+7) Currency Exchange and Money Transfer
+
+8) Refills/Recharges, Bills, and more…
+
                 </p>
                 <p>
                   <Link href="https://agency.kincharge.com" target="_blank" className="underline hidden">Go to KinCharge Agency</Link>
@@ -160,15 +193,15 @@ export function AppSidebar({ user }: { user: User | undefined }) {
          <AlertDialog>
           <AlertDialogTrigger>
             <span className="underline">
-              Our Other Systems
+              Our Other Tech
             </span>
           </AlertDialogTrigger>
           <AlertDialogContent>
             <AlertDialogHeader>
-              <AlertDialogTitle className="text-xl">KinCharge Other Systems</AlertDialogTitle>
+              <AlertDialogTitle className="text-xl">KinCharge Other Technonolies and Systems</AlertDialogTitle>
               <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p>
-                  { `KinCharge currently provides the following systems: AI System which includes an Application, a Cloud Server, and/or a Local Server, and AI System R which includes an Application, a Cloud Server, and/or a Local Server. More systems will be added progressively.` }
+                  { `KinCharge currently provides the following technologies and systems: AI Assistant, which includes an Application, a Cloud Server, and/or a Local Server, and AI Assistant R which includes an Application, a Cloud Server, and/or a Local Server. More technologies and systems will be added progressively.` }
                   <Link href="https://offerings.kincharge.com" target="_blank" className="underline hidden">our other systems</Link>                
                 </p>
               </AlertDialogDescription>
@@ -193,12 +226,14 @@ export function AppSidebar({ user }: { user: User | undefined }) {
               <AlertDialogTitle className="text-xl">About KinCharge</AlertDialogTitle>
               <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p>
-                  { `KinCharge's mission is to supercharge and maximize the world’s efficiency, satisfaction, and wellness with artificial intelligent systems integrated with other technological systems, organizational systems, natural systems, and intelligent beings. KinCharge is committed to user/customer satisfaction, efficiency, wellness, safety, security, and privacy, open source, open technology and systems, community, sustainability(recycling, renewable energy…), technology and systems engineering, development, operation, and maintenance, technological progress, research, and education.` }                 
+                  { `KinCharge's mission is to supercharge and maximize the world’s efficiency, satisfaction, and wellness with eco-friendly, intelligent, community-driven, and open source technology products, services, and systems (artificial intelligence, informatics/information technology, electronics, mechatronics, and other technologies and systems).
+
+KinCharge is committed to user/customer satisfaction, efficiency, wellness, safety, security, and privacy, open source, open technology and systems, sustainability, technology and systems engineering, development, operation, and maintenance, technological progress, research, and education.` }                 
                 <Link href="https://offerings.kincharge.com" target="_blank" className="underline hidden">our other offerings</Link>                
                 </p>
                 <br />
                 <p>
-                  KinCharge AI System (Application, Cloud Server, Local Server) currently has the following Capabilities: Search the web and summarize the web search result for you. Analyze and summarize documents, texts, code, and images for you. Generate, create, and edit documents, texts, and code for you (image, video, and audio generation will be added soon). The first full version of KinCharge with more AI System capabilities and functionalities will be fully released by November 2025 (advanced tasks, advanced assistance, advanced automation, full encryption, and more…).‬</p>
+                  KinCharge AI Assistant (Application, Cloud Server, Local Server) currently has the following Capabilities: Search the web and summarize the web search result for you. Analyze and summarize documents, texts, code, and images for you. Generate, create, and edit documents, texts, and code for you (image, video, and audio generation will be added soon). The first full version of KinCharge with more AI System capabilities and functionalities will be fully released by November 2025 (advanced tasks, advanced assistance, advanced automation, full encryption, and more…).‬</p>
                 <p>
                   <Link href="https://agency.kincharge.com" target="_blank" className="underline hidden">Go to KinCharge Agency</Link>
                   <br className="hidden" />
