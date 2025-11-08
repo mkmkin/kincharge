@@ -42,7 +42,7 @@ export const Greeting = () => {
         transition={{ delay: 0.5 }}
         className="text-2xl font-semibold mx-auto justify-center content-center text-center"
       >
-        KinCharge Technology Agency
+        KinCharge <br /> Technology Agency
 
         <br />
         <br />
