@@ -212,7 +212,7 @@ KinCharge is committed to user/customer satisfaction, efficiency, wellness, safe
         <AlertDialog>
           <AlertDialogTrigger>
             <span className="underline">
-              Custom AI Assistant 
+              Get a Custom AI Assistant 
             </span>
           </AlertDialogTrigger>
           <AlertDialogContent>
