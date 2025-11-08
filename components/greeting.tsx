@@ -267,7 +267,7 @@ KinCharge is committed to user/customer satisfaction, efficiency, wellness, safe
         <br />
         <br />
         <span className="">
-          What can I assist you with today?
+          What can we assist you with today?
         </span>
 
       </motion.div>
