@@ -217,7 +217,7 @@ KinCharge is committed to user/customer satisfaction, efficiency, wellness, safe
           </AlertDialogTrigger>
           <AlertDialogContent>
             <AlertDialogHeader>
-              <AlertDialogTitle className="text-xl">Custom AI Assistant</AlertDialogTitle>
+              <AlertDialogTitle className="text-xl">Get a Custom AI Assistant</AlertDialogTitle>
               <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p >
                   Order and get a Custom Artificial Intelligent Assistant (Application, Cloud Server, Local Server) with all KinCharge AI Assistance Capabilities and Functionalities: Advanced Assistance, Advanced Automation, Conversation, Text Generation, Text Analysis, Data Analysis, Document Analysis, Document/File Creation and Editing, Image and Video Analysis, Audio Analysis, Audio and Video Transcription, Image and Video Generation, Audio Generation, and more…
