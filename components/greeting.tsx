@@ -60,6 +60,7 @@ export const Greeting = () => {
         </span>
 
         <br />
+        <br />
         <AlertDialog>
           <AlertDialogTrigger>
             <span className="underline">
