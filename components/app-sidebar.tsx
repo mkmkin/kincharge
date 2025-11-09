@@ -54,7 +54,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
                   className="rounded mx-0 px-0"
                 />
               <span className="text-lg font-semibold ml-0 pl-0 pr-2 hover:bg-muted rounded-md cursor-pointer">
-                KinCharge
+                KinCharge TA
               </span>
             </Link>
             <Tooltip>
@@ -88,7 +88,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
 
          <AlertDialog>
           <AlertDialogTrigger>
-            <span className="underline">
+            <span className="underline hidden">
               Custom AI Assistant
             </span>
           </AlertDialogTrigger>
@@ -123,7 +123,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
          <AlertDialog>
           <AlertDialogTrigger>
             <span className="underline">
-              Our Community
+              What We Provide 
             </span>
           </AlertDialogTrigger>
           <AlertDialogContent>
@@ -192,7 +192,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
 
          <AlertDialog>
           <AlertDialogTrigger>
-            <span className="underline">
+            <span className="underline hidden">
               Our Other Tech
             </span>
           </AlertDialogTrigger>
