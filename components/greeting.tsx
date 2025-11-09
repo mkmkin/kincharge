@@ -59,7 +59,7 @@ export const Greeting = () => {
           Hi, we provide technology services, products, and systems to fulfill our community needs, 24/7, in collaboration with our partners.
         </span>
 
-        {{ " | " }}
+        <br />
         <AlertDialog>
           <AlertDialogTrigger>
             <span className="underline">
