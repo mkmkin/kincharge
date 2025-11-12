@@ -8,8 +8,8 @@ import { SessionProvider } from 'next-auth/react';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://kincharge.com'),
-  title: 'KinCharge: Eco-friendly, intelligent, community-driven, and open source technology products, services, and systems.',
-  description: 'KinCharge mission is to supercharge and maximize the world’s efficiency, satisfaction, and wellness with eco-friendly, intelligent, community-driven, and open source technology products, services, and systems (artificial intelligence, informatics/information technology, electronics, mechatronics, and other technologies and systems)',
+  title: 'KinCharge: Eco-friendly, intelligent, community-driven, and open source technology services, products, and systems.',
+  description: 'KinCharge mission is to supercharge and optimize the world’s efficiency, satisfaction, and wellness with eco-friendly, intelligent, community-driven, and open source technology services, products, and systems (artificial intelligence, informatics/information technology, electronics, mechatronics, and other technologies and systems)',
 };
 
 export const viewport = {
