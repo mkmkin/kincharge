@@ -172,7 +172,7 @@ KinCharge is committed to user/customer satisfaction, efficiency, wellness, safe
          <AlertDialog>
           <AlertDialogTrigger>
             <span className="underline">
-              What We Provide 
+              Our Works
             </span>
           </AlertDialogTrigger>
           <AlertDialogContent>
