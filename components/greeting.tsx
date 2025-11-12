@@ -56,7 +56,7 @@ export const Greeting = () => {
       >
 
         <span className="">
-          Hi, we provide technology services, products, and systems to fulfill our community needs, 24/7. Our team works alongside our AI assistant, and our partners.
+          Hi, we provide technology services, products, and systems to fulfill our community needs, 24/7. Our Team works alongside our AI Assistant, and our Partners.
         </span>
 
         <br />
