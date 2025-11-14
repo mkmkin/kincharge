@@ -165,7 +165,7 @@ KinCharge is committed to user/customer satisfaction, efficiency, wellness, safe
               <AlertDialogTitle className="text-xl">What KinCharge Provides</AlertDialogTitle>
               <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p>
-                  KinCharge provides technology services, products, and systems to fulfill our community needs, 24/7. KinCharge Technology Agency Team works alongside KinCharge Tech Agency AI Assistant, and KinCharge's Partners for that.
+                  { `KinCharge provides technology services, products, and systems to fulfill our community needs, 24/7. KinCharge Technology Agency Team works alongside KinCharge Tech Agency AI Assistant, and KinCharge's Partners for that.` }
                   <br />
                    <br />
                    KinCharge Technology Agency has a worldwide community with multiple agencies where technology services, products, and systems are provided to help the community fulfill their needs, 24/7, by our Tech Agency Team working alongside our Tech Agency AI Assistant and our Partners. 
