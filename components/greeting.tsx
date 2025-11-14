@@ -73,15 +73,20 @@ export const Greeting = () => {
             <AlertDialogHeader>
               <AlertDialogTitle className="text-xl">About KinCharge</AlertDialogTitle>
               <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
-                <p>
-                  { `KinCharge's mission is to supercharge and maximize the world’s efficiency, satisfaction, and wellness with eco-friendly, intelligent, community-driven, and open source technology products, services, and systems (artificial intelligence, informatics/information technology, electronics, mechatronics, and other technologies and systems).
-
-KinCharge is committed to user/customer satisfaction, efficiency, wellness, safety, security, and privacy, open source, open technology and systems, sustainability, technology and systems engineering, development, operation, and maintenance, technological progress, research, and education.` }                 
-                <Link href="https://offerings.kincharge.com" target="_blank" className="underline hidden">our other offerings</Link>                
-                </p>
                 <br />
                 <p>
-                  KinCharge AI Assistant (Application, Cloud Server, Local Server) currently has the following Capabilities: Search the web and summarize the web search result for you. Analyze and summarize documents, texts, code, and images for you. Generate, create, and edit documents, texts, and code for you (image, video, and audio generation will be added soon). The first full version of KinCharge with more AI System capabilities and functionalities will be fully released by November 2025 (advanced tasks, advanced assistance, advanced automation, full encryption, and more…).‬</p>
+                  { `
+                    KinCharge's mission is to supercharge and optimize the world’s efficiency, satisfaction, and wellness with eco-friendly, intelligent, community-driven, and open source technology services, products, and systems (artificial intelligence, informatics/information technology, electronics, mechatronics, and other technologies and systems). KinCharge Technology Agency Team works alongside KinCharge Tech Agency AI Assistant and KinCharge’s Partners to provide technology services, products, and systems to fulfill our community needs 24/7. 
+                    ` } 
+                <br />
+                <br />
+                KinCharge is committed to user/customer satisfaction, efficiency, wellness, safety, security, and privacy, open source, open technology and systems, sustainability, technology and systems engineering, development, operation, and maintenance, technological progress, research, and education.
+                <br />
+                <br />
+                Users/clients can contact us for more details at: ‪+1 (929) 877‑6893‬, contact@kincharge.com               
+                <Link href="https://offerings.kincharge.com" target="_blank" className="underline hidden">our other offerings</Link>                
+                </p>
+
                 <p>
                   <Link href="https://agency.kincharge.com" target="_blank" className="underline hidden">Go to KinCharge Agency</Link>
                   <br className="hidden" />
