@@ -129,14 +129,12 @@ export function AppSidebar({ user }: { user: User | undefined }) {
               <AlertDialogTitle className="text-xl">About KinCharge</AlertDialogTitle>
               <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p>
-                  { `KinCharge's mission is to supercharge and maximize the world’s efficiency, satisfaction, and wellness with eco-friendly, intelligent, community-driven, and open source technology products, services, and systems (artificial intelligence, informatics/information technology, electronics, mechatronics, and other technologies and systems).
+                  { `KinCharge's mission is to supercharge and optimize the world’s efficiency, satisfaction, and wellness with eco-friendly, intelligent, community-driven, and open source technology services, products, and systems (artificial intelligence, informatics/information technology, electronics, mechatronics, and other technologies and systems). KinCharge Technology Agency Team works alongside KinCharge Tech Agency AI Assistant and KinCharge’s Partners to provide technology services, products, and systems to fulfill our community needs 24/7. 
 
-KinCharge is committed to user/customer satisfaction, efficiency, wellness, safety, security, and privacy, open source, open technology and systems, sustainability, technology and systems engineering, development, operation, and maintenance, technological progress, research, and education.` }                 
+KinCharge is committed to user/customer satisfaction, efficiency, wellness, safety, security, and privacy, open source, open technology and systems, sustainability, technology and systems engineering, development, operation, and maintenance, technological progress, research, and education. Users/clients can contact us for more details at: ‪+1 (929) 877‑6893‬, contact@kincharge.com` }                 
                 <Link href="https://offerings.kincharge.com" target="_blank" className="underline hidden">our other offerings</Link>                
                 </p>
-                <br />
-                <p>
-                  KinCharge AI Assistant (Application, Cloud Server, Local Server) currently has the following Capabilities: Search the web and summarize the web search result for you. Analyze and summarize documents, texts, code, and images for you. Generate, create, and edit documents, texts, and code for you (image, video, and audio generation will be added soon). The first full version of KinCharge with more AI System capabilities and functionalities will be fully released by November 2025 (advanced tasks, advanced assistance, advanced automation, full encryption, and more…).‬</p>
+
                 <p>
                   <Link href="https://agency.kincharge.com" target="_blank" className="underline hidden">Go to KinCharge Agency</Link>
                   <br className="hidden" />
@@ -263,18 +261,18 @@ KinCharge is committed to user/customer satisfaction, efficiency, wellness, safe
                 <p>
 
                   { `
-Last Updated: July 16, 2025
-Welcome to KinCharge (kincharge.com), an open-source AI System. This Privacy Policy explains how KinCharge collects, uses, and protects your information. We are committed to safeguarding your privacy and will progressively limit the use of third-party services that may not be open source, especially those known to abuse user privacy and data.
+Last Updated: November 10th, 2025
+Welcome to KinCharge (kincharge.com), we are a technology agency, our website is an open-source AI System called KinCharge Tech Agency AI Assistant that works alongside our technology agency team to provide technology services, products, and systems to fulfill our community needs 24/7. This Privacy Policy explains how KinCharge collects, uses, and protects your information. We are committed to safeguarding your privacy and will progressively limit the use of third-party services that may not be open source, especially those known to abuse user privacy and data.
 1. Information We Collect
 KinCharge collects the following information directly from you when you use the app:
  * Names: To personalize your experience.
  * Email Addresses: For account creation, login, and communication.
- * Assistance History: A record of your interactions with the AI System. This history can be encrypted on demand by you.
+ * Assistance History: A record of your interactions with the AI System. This history can be fully encrypted on demand by you.
 2. How We Collect Information
-We collect your data directly from you when you actively use the KinCharge application, such as during signup, login, and interaction with the AI System.
+We collect your data directly from you when you actively use the KinCharge Tech Agency AI Assistant, such as during signup, login, and interaction with the AI System.
 3. How We Use Your Information
 We use the collected information solely to:
- * Provide you with the core functionalities of KinCharge, including AI System assistance.
+ * Provide you with the core functionalities of KinCharge Tech Agency AI Assistant, including AI System assistance.
  * Manage your account and chat history.
  * Improve your user experience within the application.
 4. Sharing Your Information
@@ -287,7 +285,7 @@ You have full control over your data:
 6. Data Security
 We implement robust security measures to protect your data:
  * Authentication: Secure user authentication processes.
- * Encryption: For now your assistance history can be encrypted on demand by you, but we utilize encryption where appropriate to protect data in transit and at rest. Full encryption will be added soon.
+ * Encryption: For now your assistance history can be fully encrypted on demand by you, but we utilize encryption where appropriate to protect data in transit and at rest. Full encryption will be added soon.
 7. Cookies and Tracking Technologies
 KinCharge does not use cookies or any similar tracking technologies.
 8. Children's Privacy
@@ -320,17 +318,17 @@ We may update our Privacy Policy from time to time. We will notify you of any ch
               <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p>
                   { `
-Last Updated: July 16, 2025
-Welcome to KinCharge (kincharge.com), an open-source AI System. These Terms of Use govern your access to and use of the KinCharge web application. By accessing or using KinCharge, you agree to be bound by these Terms.
+Last Updated: November 10th, 2025
+Welcome to KinCharge (kincharge.com), we are a technology agency, our website is an open-source AI System called KinCharge Tech Agency AI Assistant that works alongside our technology agency team to provide technology services, products, and systems to fulfill our community needs 24/7. These Terms of Use govern your access to and use of the KinCharge web application. By accessing or using KinCharge Tech Agency AI Assistant, you agree to be bound by these Terms.
 1. Primary Functionalities
-KinCharge provides the following primary functionalities:
+KinCharge Tech Agency AI Assistant provides the following primary functionalities:
  * Signup and Login: Create and manage your user account.
  * Chat with the AI System: Interact with our AI System for various purposes.
  * Manage Chat/Assist History: View and manage your past conversations with the AI System.
 2. Age Restrictions
-There are no age restrictions for using KinCharge. However, users under the age of 18 are encouraged to use the service under parental guidance.
+There are no age restrictions for using KinCharge Tech Agency AI Assistant. However, users under the age of 18 are encouraged to use the service under parental guidance.
 3. Prohibited Activities
-You agree not to use KinCharge for any of the following prohibited activities:
+You agree not to use KinCharge Tech Agency AI Assistant for any of the following prohibited activities:
  * Engaging in any illegal activities.
  * Distributing malware or any other harmful software.
  * Sending unsolicited communications (spamming).
@@ -338,18 +336,18 @@ You agree not to use KinCharge for any of the following prohibited activities:
  * Disrupting the integrity or performance of the KinCharge application.
  * Any activity that violates applicable laws or regulations.
 4. User-Generated Content
-Currently, KinCharge does not support user-generated content other than your interactions with the AI System, which are considered part of your assistance history.
+Currently, KinCharge Tech Agency AI Assistant does not support user-generated content other than your interactions with the AI System, which are considered part of your assistance history.
 5. Disclaimers and Limitations of Liability
-KinCharge is provided on an "as is" and "as available" basis. We make no warranties, express or implied, regarding the service.
- * No Warranties: We do not guarantee that KinCharge will be error-free, uninterrupted, or secure. We disclaim all warranties, including but not limited to, implied warranties of merchantability, fitness for a particular purpose, and non-infringement.
+KinCharge Tech Agency AI Assistant is provided on an "as is" and "as available" basis. We make no warranties, express or implied, regarding the service.
+ * No Warranties: We do not guarantee that KinCharge Tech Agency AI Assistant will be error-free, uninterrupted, or secure. We disclaim all warranties, including but not limited to, implied warranties of merchantability, fitness for a particular purpose, and non-infringement.
  * Third-Party Services: KinCharge may interact with or rely on third-party services. We are not responsible for the privacy practices, terms of use, or actions of any third-party services.
  * Limitation of Liability: To the fullest extent permitted by law, KinCharge and its contributors shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses, resulting from (a) your access to or use of or inability to access or use the service; (b) any conduct or content of any third party on the service; (c) any content obtained from the service; and (d) unauthorized access, use or alteration of your transmissions or content.
 6. Dispute Resolution
-Any disputes arising out of or relating to these Terms or your use of KinCharge will be resolved through arbitration, in accordance with the laws of the appropriate country.
+Any disputes arising out of or relating to these Terms or your use of KinCharge Tech Agency AI Assistant will be resolved through arbitration, in accordance with the laws of the appropriate country.
 7. Changes to the Terms
-We reserve the right to modify or replace these Terms at any time. We will notify you of any material changes by sending an email to the address associated with your account. Your continued use of KinCharge after such notification constitutes your acceptance of the updated Terms.
+We reserve the right to modify or replace these Terms at any time. We will notify you of any material changes by sending an email to the address associated with your account. Your continued use of KinCharge Tech Agency AI Assistant after such notification constitutes your acceptance of the updated Terms.
 8. No Warranties or Guarantees
-KinCharge is an open-source project and does not provide any warranties or guarantees regarding its performance, functionality, or suitability for any particular purpose.
+KinCharge Tech Agency AI Assistant is an open-source project and does not provide any warranties or guarantees regarding its performance, functionality, or suitability for any particular purpose.
                    ` }
                   <Link href="https://offerings.kincharge.com" target="_blank" className="underline hidden">our other offerings</Link>                
                 </p>
