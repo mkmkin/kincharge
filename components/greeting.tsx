@@ -63,11 +63,9 @@ export const Greeting = () => {
         <br />
         <AlertDialog>
           <AlertDialogTrigger>
-            [
             <span className="underline">
-              More About Us
+              [More About Us]
             </span>
-             ]
           </AlertDialogTrigger>
           <AlertDialogContent>
             <AlertDialogHeader>
@@ -109,7 +107,7 @@ export const Greeting = () => {
           <AlertDialogTrigger>
             [
             <span className="underline">
-              More About What We Provide 
+              [More About What We Provide]
             </span>
              ]
           </AlertDialogTrigger>
