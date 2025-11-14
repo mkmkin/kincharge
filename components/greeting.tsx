@@ -63,9 +63,11 @@ export const Greeting = () => {
         <br />
         <AlertDialog>
           <AlertDialogTrigger>
+            [
             <span className="underline">
-              About Us
+              More About Us
             </span>
+             ]
           </AlertDialogTrigger>
           <AlertDialogContent>
             <AlertDialogHeader>
@@ -96,14 +98,15 @@ KinCharge is committed to user/customer satisfaction, efficiency, wellness, safe
             </AlertDialogFooter>
           </AlertDialogContent>
          </AlertDialog>
-        
-          { " | " }
+         <br />
 
          <AlertDialog>
           <AlertDialogTrigger>
+            [
             <span className="underline">
-              What We Provide 
+              More About What We Provide 
             </span>
+             ]
           </AlertDialogTrigger>
           <AlertDialogContent>
             <AlertDialogHeader>
