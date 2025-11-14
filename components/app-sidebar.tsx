@@ -129,9 +129,11 @@ export function AppSidebar({ user }: { user: User | undefined }) {
               <AlertDialogTitle className="text-xl">About KinCharge</AlertDialogTitle>
               <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p>
-                  { `KinCharge's mission is to supercharge and optimize the world’s efficiency, satisfaction, and wellness with eco-friendly, intelligent, community-driven, and open source technology services, products, and systems (artificial intelligence, informatics/information technology, electronics, mechatronics, and other technologies and systems). KinCharge Technology Agency Team works alongside KinCharge Tech Agency AI Assistant and KinCharge’s Partners to provide technology services, products, and systems to fulfill our community needs 24/7. 
-
-KinCharge is committed to user/customer satisfaction, efficiency, wellness, safety, security, and privacy, open source, open technology and systems, sustainability, technology and systems engineering, development, operation, and maintenance, technological progress, research, and education. Users/clients can contact us for more details at: ‪+1 (929) 877‑6893‬, contact@kincharge.com` }                 
+                  { `
+                    KinCharge's mission is to supercharge and optimize the world’s efficiency, satisfaction, and wellness with eco-friendly, intelligent, community-driven, and open source technology services, products, and systems (artificial intelligence, informatics/information technology, electronics, mechatronics, and other technologies and systems). KinCharge Technology Agency Team works alongside KinCharge Tech Agency AI Assistant and KinCharge’s Partners to provide technology services, products, and systems to fulfill our community needs 24/7. 
+                    ` } 
+                <span className="mt-3">KinCharge is committed to user/customer satisfaction, efficiency, wellness, safety, security, and privacy, open source, open technology and systems, sustainability, technology and systems engineering, development, operation, and maintenance, technological progress, research, and education.</span>
+                <span className="mt-3">Users/clients can contact us for more details at: ‪+1 (929) 877‑6893‬, contact@kincharge.com</span>               
                 <Link href="https://offerings.kincharge.com" target="_blank" className="underline hidden">our other offerings</Link>                
                 </p>
 
