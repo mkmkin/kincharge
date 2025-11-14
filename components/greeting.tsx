@@ -105,16 +105,14 @@ export const Greeting = () => {
 
          <AlertDialog>
           <AlertDialogTrigger>
-            [
             <span className="underline">
               [More About What We Provide]
             </span>
-             ]
           </AlertDialogTrigger>
           <AlertDialogContent>
             <AlertDialogHeader>
               <AlertDialogTitle className="text-xl">What KinCharge Provides</AlertDialogTitle>
-              <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
+              <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll text-center">
                 <br />
                 <p>
                   { `KinCharge provides technology services, products, and systems to fulfill our community needs, 24/7. KinCharge Technology Agency Team works alongside KinCharge Tech Agency AI Assistant, and KinCharge's Partners for that.` }
