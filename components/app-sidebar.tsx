@@ -162,49 +162,24 @@ KinCharge is committed to user/customer satisfaction, efficiency, wellness, safe
           </AlertDialogTrigger>
           <AlertDialogContent>
             <AlertDialogHeader>
-              <AlertDialogTitle className="text-xl">KinCharge Community</AlertDialogTitle>
+              <AlertDialogTitle className="text-xl">What KinCharge Provides</AlertDialogTitle>
               <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p>
-                  KinCharge community locations provide technology products and services that help the community fulfill their needs, in collaboration with our partners.
+                  KinCharge provides technology services, products, and systems to fulfill our community needs, 24/7. KinCharge Technology Agency Team works alongside KinCharge Tech Agency AI Assistant, and KinCharge's Partners for that.
+                  <br />
+                   <br />
+                   KinCharge Technology Agency has a worldwide community with multiple agencies where technology services, products, and systems are provided to help the community fulfill their needs, 24/7, by our Tech Agency Team working alongside our Tech Agency AI Assistant and our Partners. 
                   You can{ " " }
                   <a href={`tel:‪+19298776893‬`} className="underline"> 
                   contact us
-                  </a>{ " " } about any of the following products and services.
-                  The main product and services we provide are: 1) Artificial Intelligence 
-
-2) Systems Engineering 
-
-3) Information Technology, Informatics, Electronics, and Telecommunications
-
-4) Mechatronics and Mechanics
-
-5) Construction, Prefab, Self-Sufficiency, Electricity, Plumbing, Equipment…
-
-6) Manufacturing and Customization 
-
-7) Waste Collection, Treatment, Disposal and Recycling
-
-8) Ecology, Open Source
-
-8) Agriculture, Mining, and more…
-
- We also provide the following extra products and services: 1) Training and Education
-
-2) Recruiting and Staffing
-
-3) Fitness, Wellness, Efficiency, Satisfaction
-
-4) Security, Safety, and Privacy 
-
-5) Sales and Purchases
-
-6) Rentals and Bookings
-
-7) Currency Exchange and Money Transfer
-
-8) Refills/Recharges, Bills, and more…
-
-                </p>
+                  </a>{ " " } about any of the following services, products, and systems.                                    
+                  <br />
+                   The main technology services, products, and systems provided by KinCharge: 1) Artificial Intelligence 2) Integrated Systems 3) Information Technology, Informatics, Electronics, and Telecommunications 4) Mechatronics and Mechanics 5) Infrastructure, Construction, Electricity, Plumbing, Equipment... 6) Manufacturing, Customizing, Repair, Upgrading, Maintenance... 7) Waste Collection, Treatment, Disposal, and Recycling 8) Ecology, Open Source 9) Agriculture, Mining, and more… 
+                  <br />
+                   Complementary services and products provided by KinCharge: 1) Training, Education, Research 2) Recruiting and Staffing 3) Fitness, Wellness, Efficiency, Community, Satisfaction 4) Security, Safety, and Privacy 5) Sales and Purchases 6) Rentals and Bookings 7) Currency Exchange and Money Transfer 8) Refills/Recharges, Bills, and more…
+                   <br />
+                    KinCharge Tech Agency AI Assistant (Application, Cloud Server, Local Server) currently has the following Capabilities: Search the web and summarize the web search result for you. Analyze and summarize documents, texts, code, and images, for you. Generate, create, and edit documents, texts, and code for you (image, video, and audio generation will be added soon). The first full version of KinCharge Tech Agency AI Assistant with more AI Assistance capabilities and functionalities will be fully released by December 2025 (advanced tasks, advanced assistance, advanced automation, full encryption, and more…)
+                 </p>
                 <p>
                   <Link href="https://agency.kincharge.com" target="_blank" className="underline hidden">Go to KinCharge Agency</Link>
                    <br className="hidden"/>
