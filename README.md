@@ -1,9 +1,9 @@
 <a href="https://chat.vercel.ai/">
-  <h1 align="center">Open Source Tech Agency AI Assistant by KinCharge</h1>
+  <h1 align="center">Open Source Tech Agency AI Assistant</h1>
 </a>
 
 <p align="center">
-    KinCharge Tech Agency AI Assistant is a free, open-source AI System that helps our community supercharge and optimize their efficiency, satisfaction, and wellness with technology. KinCharge Technology Agency Team and the AI Assistant work together to provide technology services, products, and systems to fulfill the community needs 24/7.
+    KinCharge Tech Agency AI Assistant is a free, open-source AI System that helps our community supercharge and optimize their efficiency, satisfaction, and wellness with technology. KinCharge Technology Agency Team Members and Partners and the AI Assistant work together to provide technology services and products to fulfill the community needs 24/7.
     KinCharge Tech Agency AI Assistant is developed and operated using the following technologies and systems, which are mostly open source: NextJS, TailwindCSS, ShadCNUI, RadixUI, Vercel AI SDK, Mistrall, LocalAI, FireCrawl, n8n, OpenHab, HomeAssistant, NodeJS, Supabase, PostgreSQL, Vercel Cloud, Git, Github, Docker, Docker Hub, Linux, Ubuntu, LibreBoot, Cloud Servers, Local Servers, and more. Most of these open source technologies and systems are being customized and improved for more capabilities, more functionalities, and better adoption and integration.
 </p>
 
