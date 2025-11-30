@@ -131,12 +131,12 @@ export function AppSidebar({ user }: { user: User | undefined }) {
                 <br />
                 <p>
                   { `
-                    KinCharge's mission is to supercharge and optimize the world’s efficiency, satisfaction, and wellness with eco-friendly, intelligent, community-driven, and open source technology services, products, and systems (artificial intelligence, informatics/information technology, electronics, mechatronics, and other technologies and systems). KinCharge Technology Agency Team works alongside KinCharge Tech Agency AI Assistant and KinCharge’s Partners to provide technology services, products, and systems to fulfill our community needs 24/7. 
-                    ` } 
+                    KinCharge's mission is to supercharge and optimize the world’s efficiency, satisfaction, and wellness with eco-friendly, intelligent, community-driven, and open source technology services and products (artificial intelligence, informatics/information technology, electronics, mechatronics, and other technologies and systems). KinCharge Technology Agency Team Members work alongside KinCharge Tech Agency AI Assistants and KinCharge’s Partners to provide technology services, products, and systems to fulfill our community needs 24/7. 
+                     ` } 
                 <br />
                 <br />
                 KinCharge is committed to user/customer satisfaction, efficiency, wellness, safety, security, and privacy, open source, open technology and systems, sustainability, technology and systems engineering, development, operation, and maintenance, technological progress, research, and education.
-                <br />
+                 <br />
                 <br />
                 Users/clients can contact us for more details at: ‪+1 (929) 877‑6893‬, contact@kincharge.com               
                 <Link href="https://offerings.kincharge.com" target="_blank" className="underline hidden">our other offerings</Link>                
@@ -173,14 +173,14 @@ export function AppSidebar({ user }: { user: User | undefined }) {
               <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <br />
                 <p>
-                  { `KinCharge provides technology services, products, and systems to fulfill our community needs, 24/7. KinCharge Technology Agency Team works alongside KinCharge Tech Agency AI Assistant, and KinCharge's Partners for that.` }
+                  { `KinCharge provides technology services and products to fulfill our community needs, 24/7. KinCharge Technology Agency Team Members and Partners work alongside KinCharge Tech Agency AI Assistants for that.` }
                    <br />
                    <br />
-                   KinCharge Technology Agency has a worldwide community with multiple agencies where technology services, products, and systems are provided to help the community fulfill their needs, 24/7, by our Tech Agency Team working alongside our Tech Agency AI Assistant and our Partners. 
+                   KinCharge Technology Agency has a worldwide community with multiple agencies where technology services and products are provided to help the community fulfill their needs, 24/7, by our Tech Agency Team Members and Partners working alongside our Tech Agency AI Assistants. 
                   You can{ " " }
                   <a href={`tel:‪+19298776893‬`} className="underline"> 
                   contact us
-                  </a>{ " " } about any of the following services, products, and systems.                                    
+                  </a>{ " " } about any of the following services and products.                                    
                    <br />
                    <br />
                    The main technology services, products, and systems provided by KinCharge: <br /> 1) Artificial Intelligence <br /> 2) Integrated Systems <br /> 3) Information Technology, Informatics, Electronics, and Telecommunications <br /> 4) Mechatronics and Mechanics <br /> 5) Infrastructure, Construction, Electricity, Plumbing, Equipment... <br /> 6) Manufacturing, Customizing, Repair, Upgrading, Maintenance... <br /> 7) Waste Collection, Treatment, Disposal, and Recycling <br /> 8) Ecology, Open Source <br /> 9) Agriculture, Mining, and more… 
@@ -247,8 +247,9 @@ export function AppSidebar({ user }: { user: User | undefined }) {
                 <p>
 
                   { `
+KinCharge Privacy Policy
 Last Updated: November 10th, 2025
-Welcome to KinCharge (kincharge.com), we are a technology agency, our website is an open-source AI System called KinCharge Tech Agency AI Assistant that works alongside our technology agency team to provide technology services, products, and systems to fulfill our community needs 24/7. This Privacy Policy explains how KinCharge collects, uses, and protects your information. We are committed to safeguarding your privacy and will progressively limit the use of third-party services that may not be open source, especially those known to abuse user privacy and data.
+Welcome to KinCharge (kincharge.com), we are a technology agency, our website is an open-source AI System called KinCharge Tech Agency AI Assistant that works alongside our technology agency team members to provide technology services and products to fulfill our community needs 24/7. This Privacy Policy explains how KinCharge collects, uses, and protects your information. We are committed to safeguarding your privacy and will progressively limit the use of third-party services that may not be open source, especially those known to abuse user privacy and data.
 1. Information We Collect
 KinCharge collects the following information directly from you when you use the app:
  * Names: To personalize your experience.
@@ -304,8 +305,9 @@ We may update our Privacy Policy from time to time. We will notify you of any ch
               <AlertDialogDescription className="text-lg max-h-80 overflow-y-scroll">
                 <p>
                   { `
+KinCharge Terms of Use
 Last Updated: November 10th, 2025
-Welcome to KinCharge (kincharge.com), we are a technology agency, our website is an open-source AI System called KinCharge Tech Agency AI Assistant that works alongside our technology agency team to provide technology services, products, and systems to fulfill our community needs 24/7. These Terms of Use govern your access to and use of the KinCharge web application. By accessing or using KinCharge Tech Agency AI Assistant, you agree to be bound by these Terms.
+Welcome to KinCharge (kincharge.com), we are a technology agency, our website is an open-source AI System called KinCharge Tech Agency AI Assistant that works alongside our technology agency team members to provide technology services and products to fulfill our community needs 24/7. These Terms of Use govern your access to and use of the KinCharge web application. By accessing or using KinCharge Tech Agency AI Assistant, you agree to be bound by these Terms.
 1. Primary Functionalities
 KinCharge Tech Agency AI Assistant provides the following primary functionalities:
  * Signup and Login: Create and manage your user account.
