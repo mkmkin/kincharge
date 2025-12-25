@@ -131,7 +131,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
                 <br />
                 <p>
                   { `
-                    KinCharge's mission is to supercharge and optimize the world’s efficiency, satisfaction, and wellness with eco-friendly, intelligent, community-driven, and open source technology services and products (artificial intelligence, informatics/information technology, electronics, mechatronics, and other technologies and systems). KinCharge Technology Agency Team Members work alongside KinCharge Tech Agency AI Assistants and KinCharge’s Partners to provide technology services, products, and systems to fulfill our community needs 24/7. 
+                    KinCharge's mission is to supercharge and optimize the world’s efficiency, satisfaction, and wellness with eco-friendly, intelligent, community-driven, open source, and integrated technology services and products (artificial intelligence, informatics/information technology, electronics, mechatronics, and other technologies and systems). KinCharge Technology Agency Team Members work alongside KinCharge Tech Agency AI Assistants and KinCharge’s Partners to provide technology services, products, and systems to fulfill our community needs 24/7. 
                      ` } 
                 <br />
                 <br />
@@ -183,7 +183,7 @@ export function AppSidebar({ user }: { user: User | undefined }) {
                   </a>{ " " } about any of the following services and products.                                    
                    <br />
                    <br />
-                   The main technology services and products provided by KinCharge: <br /> 1) Artificial Intelligence <br /> 2) Integrated Systems <br /> 3) Information Technology, Informatics, Electronics, and Telecommunications <br /> 4) Mechatronics and Mechanics <br /> 5) Infrastructure, Construction, Electricity, Plumbing, Equipment... <br /> 6) Manufacturing, Customizing, Repair, Upgrading, Maintenance... <br /> 7) Waste Collection, Treatment, Disposal, and Recycling <br /> 8) Ecology, Open Source <br /> 9) Agriculture, Mining, and more… 
+                   The main technology services and products provided by KinCharge: <br /> 1) Artificial Intelligence <br /> 2) Integrated Systems <br /> 3) Information Technology, Informatics, Electronics, Telecommunications, and Automation <br /> 4) Mechatronics and Mechanics <br /> 5) Infrastructure, Construction, Electricity, Plumbing, Equipment... <br /> 6) Manufacturing, Customizing, Repair, Upgrading, Maintenance... <br /> 7) Waste Collection, Treatment, Disposal, and Recycling <br /> 8) Ecology, Open Source <br /> 9) Agriculture, Mining, and more… 
                    <br />
                    <br />
                    Complementary services and products provided by KinCharge: <br /> 1) Training, Education, Research <br /> 2) Recruiting and Staffing <br /> 3) Fitness, Wellness, Efficiency, Community, Satisfaction <br /> 4) Security, Safety, and Privacy <br /> 5) Sales and Purchases <br /> 6) Rentals and Bookings <br /> 7) Currency Exchange and Money Transfer <br /> 8) Refills/Recharges, Bills, and more…
